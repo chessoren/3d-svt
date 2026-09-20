@@ -221,7 +221,7 @@ export const ficheGlucides: Fiche = {
           lignes: [
             ['Acide hyaluronique', 'Acide glucuronique et N-acétylglucosamine', 'Liquide synovial, humeur vitrée, matrice extracellulaire ; non sulfaté, non lié à une protéine cœur'],
             ['Chondroïtine sulfate', 'Acide glucuronique et N-acétylgalactosamine sulfatée', 'Cartilage, tendons'],
-            ['Héparine', 'Glucosamine et acide iduronique sulfatés', 'Anticoagulant physiologique intracellulaire, sécrétée par les mastocytes'],
+            ['Héparine', 'Glucosamine et acide iduronique sulfatés', 'Stockée dans les granules des mastocytes ; employée en thérapeutique comme anticoagulant'],
             ['Kératane sulfate', 'Galactose et N-acétylglucosamine sulfatée', 'Cornée, cartilage'],
           ],
         },

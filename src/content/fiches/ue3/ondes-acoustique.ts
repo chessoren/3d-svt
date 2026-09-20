@@ -231,7 +231,7 @@ export const ficheOndesAcoustique: Fiche = {
           variante: 'chiffres',
           titre: 'Applications thérapeutiques des ultrasons',
           texte:
-            "À plus forte puissance, les ultrasons sont utilisés en thérapeutique : lithotritie extracorporelle pour fragmenter des calculs urinaires, ou ultrasons focalisés de haute intensité (HIFU) pour la destruction thermique ciblée de certaines tumeurs.",
+            "À plus forte puissance, les ultrasons sont utilisés en thérapeutique, notamment les ultrasons focalisés de haute intensité (HIFU) pour la destruction thermique ciblée de certaines tumeurs. La lithotritie extracorporelle, qui fragmente les calculs urinaires, repose quant à elle sur des ondes de choc et non sur des ultrasons au sens strict.",
         },
       ],
     },
@@ -577,9 +577,9 @@ export const ficheOndesAcoustique: Fiche = {
         },
         {
           lettre: 'D',
-          texte: 'La lithotritie extracorporelle utilise des ultrasons de forte puissance pour fragmenter des calculs.',
+          texte: 'Les ultrasons focalisés de haute intensité permettent de détruire certains tissus par effet thermique.',
           vraie: true,
-          justification: 'Exact, c’est une application thérapeutique des ultrasons de haute intensité.',
+          justification: 'Exact : à haute intensité, l’absorption des ultrasons échauffe localement le tissu, ce qui autorise une destruction thermique ciblée.',
         },
         {
           lettre: 'E',

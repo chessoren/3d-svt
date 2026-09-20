@@ -123,7 +123,7 @@ export const ficheTeteOsseuse: Fiche = {
           items: [
             "Le canal optique, dans la petite aile du sphénoïde, livre passage au nerf optique et à l’artère ophtalmique.",
             "La fissure orbitaire supérieure, entre petite et grande ailes du sphénoïde, livre passage aux nerfs oculomoteurs (III, IV, VI) et à la branche ophtalmique du nerf trijumeau (V1).",
-            "La fissure orbitaire inférieure livre passage au nerf maxillaire (V2) et à des vaisseaux infra-orbitaires.",
+            "La fissure orbitaire inférieure livre passage au nerf infra-orbitaire, rameau terminal du nerf maxillaire (V2), et aux vaisseaux infra-orbitaires. Le nerf maxillaire lui-même quitte le crâne par le foramen rond.",
           ],
         },
         {

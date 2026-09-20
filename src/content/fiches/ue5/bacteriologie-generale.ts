@@ -38,7 +38,7 @@ export const ficheBacteriologieGenerale: Fiche = {
         {
           type: 'paragraphe',
           texte:
-            "La bactérie est un micro-organisme procaryote unicellulaire, dépourvu de noyau individualisé et d’organites membranaires. Son matériel génétique est constitué d’un chromosome circulant unique, libre dans le cytoplasme, dans une région appelée nucléoïde.",
+            "La bactérie est un micro-organisme procaryote unicellulaire, dépourvu de noyau individualisé et d’organites membranaires. Son matériel génétique est constitué d’un chromosome circulaire unique, libre dans le cytoplasme, dans une région appelée nucléoïde.",
         },
         {
           type: 'tableau',

@@ -334,7 +334,7 @@ export const ficheMetabolismeAzote: Fiche = {
     },
     {
       id: 'bioch-metabolisme-azote-fc-12',
-      recto: 'Quelles enzymes ALAT et ASAT sont-elles utilisées à dépister sur le plan clinique ?',
+      recto: 'Que permettent de dépister les enzymes ALAT et ASAT sur le plan clinique ?',
       verso: 'La cytolyse hépatique, l’ASAT étant également présente dans le muscle et le myocarde.',
       type: 'clinique',
       tags: ['transaminases'],

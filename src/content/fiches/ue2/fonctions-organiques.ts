@@ -323,7 +323,7 @@ export const ficheFonctionsOrganiques: Fiche = {
         { lettre: 'D', texte: 'Lorsque plusieurs fonctions sont présentes, toutes sont nommées par un suffixe.', vraie: false, justification: 'Faux : une seule fonction, la plus prioritaire, est désignée par le suffixe ; les autres deviennent des préfixes.' },
         { lettre: 'E', texte: 'Le suffixe -amide désigne la fonction amide.', vraie: true, justification: 'Exact : le suffixe -amide, comme dans éthanamide, signale la présence d’une fonction amide.' },
       ],
-      correction: 'Réponses exactes : A, C et E. Retenir l’ordre décroissant de priorité : acide, ester, amide, aldéhyde, cétone, alcool, amine.',
+      correction: 'Réponses exactes : A, C et E. Retenir l’ordre décroissant de priorité : acide carboxylique, ester, amide, nitrile, aldéhyde, cétone, alcool, amine.',
       difficulte: 2,
     },
     {

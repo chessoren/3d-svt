@@ -139,7 +139,7 @@ export const ficheAvantBrasMain: Fiche = {
           lignes: [
             ['Antérieure superficielle', 'Flexion du poignet et des doigts, pronation', 'Nerf médian (sauf le fléchisseur ulnaire du carpe)', 'Rond pronateur, fléchisseur radial du carpe, fléchisseur ulnaire du carpe, fléchisseur superficiel des doigts'],
             ['Antérieure profonde', 'Flexion des doigts, pronation', 'Nerf médian (nerf interosseux antérieur) et nerf ulnaire', 'Fléchisseur profond des doigts, long fléchisseur du pouce, carré pronateur'],
-            ['Postérieure superficielle', 'Extension du poignet et des doigts', 'Nerf radial (branche profonde, nerf interosseux postérieur)', 'Extenseur des doigts, extenseur ulnaire du carpe, extenseur radial du carpe'],
+            ['Postérieure superficielle', 'Extension du poignet et des doigts', 'Nerf radial : tronc pour les muscles les plus latéraux, branche profonde (nerf interosseux postérieur) pour les autres', 'Extenseur des doigts, extenseur ulnaire du carpe, extenseur radial du carpe'],
             ['Postérieure profonde', 'Extension et abduction du pouce, supination', 'Nerf radial (branche profonde)', 'Supinateur, long abducteur du pouce, court et long extenseurs du pouce'],
           ],
         },

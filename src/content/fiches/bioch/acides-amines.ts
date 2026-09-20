@@ -199,7 +199,7 @@ export const ficheAcidesAmines: Fiche = {
           variante: 'astuce',
           titre: 'Lecture rapide du pHi',
           texte:
-            "Un acide aminé neutre a un pHi proche de 6 (moyenne de 2,3 et 9,6). Un acide aminé acide a un pHi nettement inférieur à 6 (environ 3 pour Asp et Glu). Un acide aminé basique a un pHi nettement supérieur à 6 (environ 9,7 pour His, 9,7 pour Lys, 10,8 pour Arg). Cette estimation suffit pour éliminer des propositions fausses en QCM.",
+            "Un acide aminé neutre a un pHi proche de 6 (moyenne de 2,3 et 9,6). Un acide aminé acide a un pHi nettement inférieur à 6 (environ 3 pour Asp et Glu). Un acide aminé basique a un pHi nettement supérieur à 6 (environ 7,6 pour His, 9,7 pour Lys, 10,8 pour Arg). Cette estimation suffit pour éliminer des propositions fausses en QCM.",
         },
       ],
     },

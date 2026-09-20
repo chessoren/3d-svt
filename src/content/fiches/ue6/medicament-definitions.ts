@@ -56,7 +56,7 @@ export const ficheMedicamentDefinitions: Fiche = {
           variante: 'examen',
           titre: 'Les deux critères ne sont pas cumulatifs',
           texte:
-            "Il suffit qu’un seul des deux critères soit rempli pour qu’un produit soit qualifié de médicament par voie legale. Un produit peut donc être un médicament par sa seule présentation, même sans action pharmacologique démontrée, et inversement un produit peut être un médicament par fonction sans revendiquer explicitement une vertu thérapeutique.",
+            "Il suffit qu’un seul des deux critères soit rempli pour qu’un produit soit qualifié de médicament par voie légale. Un produit peut donc être un médicament par sa seule présentation, même sans action pharmacologique démontrée, et inversement un produit peut être un médicament par fonction sans revendiquer explicitement une vertu thérapeutique.",
         },
       ],
     },

@@ -60,7 +60,7 @@ export const ficheTranscription: Fiche = {
         {
           type: 'encadre',
           variante: 'examen',
-          titre: 'Rétenir la polymérase II',
+          titre: 'Retenir la polymérase II',
           texte:
             'L’ARN polymérase II, responsable de la synthèse des ARN messagers, est la plus étudiée : c’est elle qui porte le domaine C-terminal (CTD), une région répétée de son unité catalytique dont la phosphorylation régule les différentes étapes du cycle de transcription.',
         },
