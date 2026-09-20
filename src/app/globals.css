@@ -1,0 +1,395 @@
+@import 'tailwindcss';
+
+/* ------------------------------------------------------------------ */
+/*  Jetons de design                                                   */
+/* ------------------------------------------------------------------ */
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --radius-capsule: 999px;
+  --radius-card: 24px;
+  --radius-soft: 16px;
+
+  --color-encre: #101828;
+  --color-ardoise: #475467;
+  --color-brume: #98a2b3;
+  --color-azur: #3b62f6;
+  --color-azur-clair: #eaefff;
+  --color-fond: #e9edfb;
+  --color-surface: #ffffff;
+}
+
+:root {
+  --page: #e9edfb;
+  --page-2: #dfe6fa;
+  --surface: #ffffff;
+  --surface-2: #f6f8fd;
+  --surface-3: #eef2fb;
+  --bordure: #e4e9f5;
+  --texte: #101828;
+  --texte-2: #475467;
+  --texte-3: #8a94a8;
+  --accent: #3b62f6;
+  --accent-doux: #eaefff;
+  --accent-contraste: #ffffff;
+  --ombre-carte: 0 1px 2px rgba(16, 24, 40, 0.04), 0 8px 24px rgba(16, 24, 40, 0.06);
+  --ombre-flottante: 0 2px 6px rgba(16, 24, 40, 0.06), 0 18px 40px rgba(16, 24, 40, 0.1);
+  --succes: #12a065;
+  --succes-doux: #e3f7ee;
+  --alerte: #d4380d;
+  --alerte-doux: #ffeee8;
+  --attention: #b54708;
+  --attention-doux: #fff5e6;
+  --info: #175cd3;
+  --info-doux: #e8f0ff;
+  --violet: #7c4df5;
+  --violet-doux: #f1ebff;
+  color-scheme: light;
+}
+
+[data-theme='sombre'] {
+  --page: #0d1220;
+  --page-2: #121a2c;
+  --surface: #161e30;
+  --surface-2: #1c2539;
+  --surface-3: #222c43;
+  --bordure: #2a3550;
+  --texte: #eef2fb;
+  --texte-2: #a9b4cc;
+  --texte-3: #7c88a3;
+  --accent: #7b96ff;
+  --accent-doux: #1e2a4d;
+  --accent-contraste: #0d1220;
+  --ombre-carte: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.35);
+  --ombre-flottante: 0 2px 6px rgba(0, 0, 0, 0.35), 0 18px 40px rgba(0, 0, 0, 0.45);
+  --succes: #4ade9e;
+  --succes-doux: #12301f;
+  --alerte: #ff8a65;
+  --alerte-doux: #3a1c14;
+  --attention: #f0b357;
+  --attention-doux: #35270f;
+  --info: #7aa7ff;
+  --info-doux: #16233f;
+  --violet: #b295ff;
+  --violet-doux: #251a42;
+  color-scheme: dark;
+}
+
+* {
+  border-color: var(--bordure);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, var(--page-2), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, var(--page-2), transparent 55%),
+    var(--page);
+  background-attachment: fixed;
+  color: var(--texte);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-contraste);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Composants de base                                                 */
+/* ------------------------------------------------------------------ */
+
+.carte {
+  background: var(--surface);
+  border-radius: var(--radius-card);
+  box-shadow: var(--ombre-carte);
+  border: 1px solid var(--bordure);
+}
+
+.carte-plate {
+  background: var(--surface-2);
+  border-radius: var(--radius-soft);
+  border: 1px solid var(--bordure);
+}
+
+.capsule {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border-radius: var(--radius-capsule);
+  padding: 0.4rem 0.85rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+  transition: all 0.18s ease;
+}
+
+.capsule-neutre {
+  background: var(--surface-3);
+  color: var(--texte-2);
+}
+
+.capsule-active {
+  background: var(--surface);
+  color: var(--texte);
+  box-shadow: var(--ombre-carte);
+}
+
+.capsule-accent {
+  background: var(--accent);
+  color: var(--accent-contraste);
+}
+
+.bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--radius-capsule);
+  font-weight: 550;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.3rem;
+  transition: all 0.18s ease;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.bouton:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.bouton-primaire {
+  background: var(--accent);
+  color: var(--accent-contraste);
+  box-shadow: 0 6px 16px color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+.bouton-primaire:hover:not(:disabled) {
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.bouton-secondaire {
+  background: var(--surface);
+  color: var(--texte);
+  border-color: var(--bordure);
+  box-shadow: var(--ombre-carte);
+}
+
+.bouton-secondaire:hover:not(:disabled) {
+  background: var(--surface-2);
+}
+
+.bouton-sombre {
+  background: var(--texte);
+  color: var(--surface);
+}
+
+.bouton-sombre:hover:not(:disabled) {
+  filter: brightness(1.2);
+}
+
+.bouton-fantome {
+  background: transparent;
+  color: var(--texte-2);
+}
+
+.bouton-fantome:hover:not(:disabled) {
+  background: var(--surface-3);
+  color: var(--texte);
+}
+
+.champ {
+  width: 100%;
+  border-radius: var(--radius-capsule);
+  background: var(--surface);
+  border: 1px solid var(--bordure);
+  padding: 0.7rem 1.1rem;
+  font-size: 0.9rem;
+  color: var(--texte);
+  outline: none;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.champ:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent);
+}
+
+.champ::placeholder {
+  color: var(--texte-3);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Mise en forme du contenu pédagogique                               */
+/* ------------------------------------------------------------------ */
+
+.prose-fiche p {
+  color: var(--texte-2);
+  line-height: 1.75;
+  font-size: 0.975rem;
+}
+
+.tableau-fiche {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.875rem;
+  overflow: hidden;
+  border-radius: var(--radius-soft);
+  border: 1px solid var(--bordure);
+}
+
+.tableau-fiche thead th {
+  background: var(--surface-3);
+  color: var(--texte);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid var(--bordure);
+}
+
+.tableau-fiche tbody td {
+  padding: 0.7rem 0.9rem;
+  color: var(--texte-2);
+  border-bottom: 1px solid var(--bordure);
+  vertical-align: top;
+}
+
+.tableau-fiche tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tableau-fiche tbody tr:nth-child(even) td {
+  background: var(--surface-2);
+}
+
+/* Barre de défilement discrète */
+.defilement-fin::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.defilement-fin::-webkit-scrollbar-thumb {
+  background: var(--bordure);
+  border-radius: 999px;
+}
+
+.defilement-fin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* ------------------------------------------------------------------ */
+/*  Animations                                                         */
+/* ------------------------------------------------------------------ */
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.apparition {
+  animation: apparition 0.4s ease both;
+}
+
+@keyframes pulsation {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+.pulsation {
+  animation: pulsation 1.4s ease-in-out infinite;
+}
+
+/* Carte de flashcard : retournement 3D */
+.scene-carte {
+  perspective: 1600px;
+}
+
+.carte-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.carte-3d.retournee {
+  transform: rotateY(180deg);
+}
+
+.face-carte {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.face-verso {
+  transform: rotateY(180deg);
+}
+
+/* ------------------------------------------------------------------ */
+/*  Impression : c'est ce rendu qui alimente l'export PDF « page »     */
+/* ------------------------------------------------------------------ */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 16mm 14mm;
+  }
+
+  :root {
+    --page: #ffffff;
+    --surface: #ffffff;
+    --surface-2: #ffffff;
+    --surface-3: #f2f4f8;
+    --bordure: #d0d5dd;
+    --texte: #000000;
+    --texte-2: #1d2939;
+    --texte-3: #475467;
+  }
+
+  body {
+    background: #ffffff !important;
+  }
+
+  .sans-impression {
+    display: none !important;
+  }
+
+  .carte {
+    box-shadow: none !important;
+    border: 1px solid #d0d5dd !important;
+    break-inside: avoid;
+  }
+
+  .saut-page {
+    break-before: page;
+  }
+
+  .eviter-coupure {
+    break-inside: avoid;
+  }
+
+  a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.7em;
+    color: #475467;
+  }
+}
