@@ -305,10 +305,10 @@ export const ficheCinetiqueChimique: Fiche = {
       id: 'ue2-cinetique-chimique-qcm-04',
       enonce: 'Concernant la loi d’Arrhénius, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'La loi d’Arrhénius s’écrit k = A · exp(−Ea / RT).', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'La loi d’Arrhénius s’écrit k = A · exp(−Ea / RT).', vraie: true, justification: 'Exact : c’est bien l’expression de la loi d’Arrhénius, qui relie la constante de vitesse k à la température T et à l’énergie d’activation Ea.' },
         { lettre: 'B', texte: 'Une augmentation de la température T augmente la constante de vitesse k.', vraie: true, justification: 'Exact : l’exposant négatif se rapproche de zéro, donc k augmente.' },
         { lettre: 'C', texte: 'Une augmentation de l’énergie d’activation Ea augmente la constante de vitesse k.', vraie: false, justification: 'Faux : elle diminue k, la réaction devient plus lente.' },
-        { lettre: 'D', texte: 'Le facteur A est appelé facteur de fréquence.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'Le facteur A est appelé facteur de fréquence.', vraie: true, justification: 'Exact : A, aussi appelé facteur préexponentiel, traduit la fréquence des chocs moléculaires efficaces.' },
         { lettre: 'E', texte: 'R représente la constante d’Avogadro.', vraie: false, justification: 'Faux : R est la constante des gaz parfaits, pas la constante d’Avogadro.' },
       ],
       correction: 'Réponses exactes : A, B et D. Bien identifier chaque terme de la loi d’Arrhénius.',
@@ -320,7 +320,7 @@ export const ficheCinetiqueChimique: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Un catalyseur est consommé au cours de la réaction.', vraie: false, justification: 'Faux : il est régénéré et n’apparaît pas dans le bilan global de la réaction.' },
         { lettre: 'B', texte: 'Un catalyseur modifie l’état d’équilibre thermodynamique de la réaction.', vraie: false, justification: 'Faux : il accélère l’atteinte de l’équilibre sans en modifier la position.' },
-        { lettre: 'C', texte: 'Un catalyseur accélère à la fois la réaction directe et la réaction inverse.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Un catalyseur accélère à la fois la réaction directe et la réaction inverse.', vraie: true, justification: 'Exact : en abaissant l’énergie d’activation du même complexe activé dans les deux sens, un catalyseur accélère la réaction directe et la réaction inverse sans déplacer l’équilibre.' },
         { lettre: 'D', texte: 'Une enzyme est en général beaucoup plus spécifique qu’un catalyseur chimique classique.', vraie: true, justification: 'Exact, souvent pour un substrat unique ou une famille restreinte de substrats.' },
         { lettre: 'E', texte: 'Une enzyme peut perdre son activité catalytique par dénaturation.', vraie: true, justification: 'Exact, notamment sous l’effet d’un pH ou d’une température inadaptés.' },
       ],

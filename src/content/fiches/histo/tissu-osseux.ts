@@ -592,7 +592,7 @@ export const ficheTissuOsseux: Fiche = {
           lettre: 'A',
           texte: 'La parathormone est sécrétée par les glandes parathyroïdes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ces quatre glandes, situées à la face postérieure de la thyroïde, sécrètent la PTH en réponse à une baisse de la calcémie.',
         },
         {
           lettre: 'B',

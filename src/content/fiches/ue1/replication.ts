@@ -381,7 +381,7 @@ export const ficheReplication: Fiche = {
           lettre: 'D',
           texte: 'L’expérience de Meselson et Stahl utilisait un marquage à l’azote lourd 15N.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ce marquage isotopique de l’ADN, distinguable par centrifugation en gradient de densité, a permis de suivre le devenir des brins anciens et nouveaux au fil des générations de réplication.',
         },
         {
           lettre: 'E',
@@ -419,13 +419,13 @@ export const ficheReplication: Fiche = {
           lettre: 'D',
           texte: 'Le complexe de reconnaissance de l’origine (ORC) intervient chez les eucaryotes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ce complexe protéique se fixe sur chaque origine de réplication eucaryote et recrute les autres facteurs nécessaires à l’assemblage du complexe de pré-réplication.',
         },
         {
           lettre: 'E',
           texte: 'L’unité d’ADN répliquée à partir d’une même origine est appelée réplicon.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Le réplicon désigne le segment d’ADN pris en charge par les deux fourches divergentes issues d’une même origine de réplication.',
         },
       ],
       correction: 'Réponses exactes : A, B, D et E. Retenir la bidirectionnalité de chaque origine activée.',
@@ -445,7 +445,7 @@ export const ficheReplication: Fiche = {
           lettre: 'B',
           texte: 'L’ADN polymérase III est l’enzyme principale de l’élongation chez Escherichia coli.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Grâce à sa forte processivité et sa vitesse de synthèse élevée, cette enzyme assure l’essentiel de l’élongation du brin d’ADN chez cette bactérie.',
         },
         {
           lettre: 'C',
@@ -457,7 +457,7 @@ export const ficheReplication: Fiche = {
           lettre: 'D',
           texte: 'Chez les eucaryotes, l’ADN polymérase alpha est associée à la primase pour initier la synthèse.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ce complexe synthétise d’abord une courte amorce d’ARN puis y ajoute quelques nucléotides d’ADN, avant que des polymérases plus processives ne prennent le relais de l’élongation.',
         },
         {
           lettre: 'E',
@@ -477,7 +477,7 @@ export const ficheReplication: Fiche = {
           lettre: 'A',
           texte: 'Le brin direct est synthétisé de façon continue.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Son orientation permet à l’ADN polymérase de progresser sans interruption dans le même sens que la fourche de réplication, sans nécessiter de nouvelles amorces.',
         },
         {
           lettre: 'B',
@@ -489,7 +489,7 @@ export const ficheReplication: Fiche = {
           lettre: 'C',
           texte: 'Chaque fragment d’Okazaki est amorcé par une courte séquence d’ARN.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Comme toute ADN polymérase, celle du brin retardé nécessite une amorce pour débuter la synthèse ; une primase en produit donc une nouvelle courte amorce d’ARN à chaque fragment.',
         },
         {
           lettre: 'D',
@@ -553,7 +553,7 @@ export const ficheReplication: Fiche = {
           lettre: 'A',
           texte: 'Il concerne l’incapacité à combler la brèche laissée par l’amorce d’ARN terminale du brin retardé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Une fois cette dernière amorce d’ARN retirée à l’extrémité du chromosome, aucune amorce en amont ne permet à une ADN polymérase de combler la brèche, ce qui raccourcit progressivement le chromosome à chaque division.',
         },
         {
           lettre: 'B',

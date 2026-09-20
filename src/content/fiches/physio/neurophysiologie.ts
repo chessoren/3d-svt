@@ -474,7 +474,7 @@ export const ficheNeurophysiologie: Fiche = {
           lettre: 'C',
           texte: 'Le réflexe myotatique implique une afférence Ia issue du fuseau neuromusculaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : l’étirement du muscle active les fibres Ia du fuseau neuromusculaire, qui font directement synapse avec le motoneurone alpha du même muscle.',
         },
         {
           lettre: 'D',
@@ -486,7 +486,7 @@ export const ficheNeurophysiologie: Fiche = {
           lettre: 'E',
           texte: 'Le centre d’intégration d’un réflexe spinal se situe dans la moelle épinière.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est ce qui distingue le réflexe spinal, dont l’intégration s’effectue au niveau médullaire sans relais encéphalique, d’une réponse volontaire.',
         },
       ],
       correction: 'Réponses exactes : A, C et E. Le réflexe est une réponse rapide, stéréotypée, ne nécessitant pas de traitement cortical volontaire.',
@@ -500,13 +500,13 @@ export const ficheNeurophysiologie: Fiche = {
           lettre: 'A',
           texte: 'La voie lemniscale transporte le tact fin et la proprioception.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : les cordons postérieurs de la moelle véhiculent le tact fin discriminatif, la proprioception consciente et la sensibilité vibratoire.',
         },
         {
           lettre: 'B',
           texte: 'La voie spinothalamique transporte la douleur et la température.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ses fibres croisent la ligne médiane au niveau médullaire peu après leur entrée, puis montent dans le cordon antérolatéral controlatéral jusqu’au thalamus.',
         },
         {
           lettre: 'C',

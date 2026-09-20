@@ -472,13 +472,13 @@ export const ficheHistologieDigestiveRespiratoire: Fiche = {
           lettre: 'C',
           texte: 'Les cellules bêta des îlots de Langerhans sécrètent l’insuline.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : les cellules bêta, les plus nombreuses et situées au centre de l’îlot, sécrètent l’insuline en réponse à l’hyperglycémie.',
         },
         {
           lettre: 'D',
           texte: 'Les cellules alpha des îlots de Langerhans sécrètent le glucagon.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : les cellules alpha, situées en périphérie de l’îlot, sécrètent le glucagon, hormone hyperglycémiante antagoniste de l’insuline.',
         },
         {
           lettre: 'E',
@@ -498,7 +498,7 @@ export const ficheHistologieDigestiveRespiratoire: Fiche = {
           lettre: 'A',
           texte: 'La trachée est tapissée par un épithélium pseudostratifié cilié à cellules caliciformes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cet épithélium respiratoire associe cellules ciliées, cellules caliciformes mucosécrétantes et cellules basales, toutes ancrées sur la membrane basale malgré des noyaux à hauteurs différentes.',
         },
         {
           lettre: 'B',
@@ -542,7 +542,7 @@ export const ficheHistologieDigestiveRespiratoire: Fiche = {
           lettre: 'B',
           texte: 'Le pneumocyte de type II sécrète le surfactant pulmonaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette cellule cubique, moins nombreuse mais plus volumineuse que le pneumocyte de type I, synthétise et sécrète le surfactant qui abaisse la tension superficielle alvéolaire.',
         },
         {
           lettre: 'C',

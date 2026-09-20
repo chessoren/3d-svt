@@ -263,7 +263,7 @@ export const ficheMecanismesReactionnels: Fiche = {
       id: 'ue2-mecanismes-reactionnels-qcm-02',
       enonce: 'Concernant les mécanismes SN1 et SN2, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'Le mécanisme SN2 se déroule en une seule étape concertée.', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'Le mécanisme SN2 se déroule en une seule étape concertée.', vraie: true, justification: 'Exact : l’attaque du nucléophile et le départ du groupe partant se produisent simultanément, sans intermédiaire réactionnel.' },
         { lettre: 'B', texte: 'Le mécanisme SN1 passe par un intermédiaire carbocationique.', vraie: true, justification: 'Exact, lors de la première étape.' },
         { lettre: 'C', texte: 'Le mécanisme SN2 est favorisé par un substrat tertiaire très encombré.', vraie: false, justification: 'Faux : un substrat tertiaire encombré défavorise l’attaque directe requise en SN2 et favorise plutôt le mécanisme SN1.' },
         { lettre: 'D', texte: 'Le mécanisme SN1 peut conduire à une racémisation partielle du produit.', vraie: true, justification: 'Exact, car le nucléophile peut attaquer le carbocation plan des deux côtés.' },
@@ -278,8 +278,8 @@ export const ficheMecanismesReactionnels: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Une addition transforme une liaison simple en liaison multiple.', vraie: false, justification: 'Faux : c’est l’inverse, une addition transforme une liaison multiple en liaison simple.' },
         { lettre: 'B', texte: 'Une élimination peut conduire à la formation d’un alcène à partir d’un halogénoalcane.', vraie: true, justification: 'Exact, par départ combiné d’un hydrogène et de l’halogène.' },
-        { lettre: 'C', texte: 'Un nucléophile fortement basique favorise plutôt l’élimination que la substitution.', vraie: true, justification: 'Exact.' },
-        { lettre: 'D', texte: 'L’addition nucléophile sur un carbonyle est un mécanisme fondamental des aldéhydes et cétones.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Un nucléophile fortement basique favorise plutôt l’élimination que la substitution.', vraie: true, justification: 'Exact : une base forte arrache préférentiellement un proton plutôt que de réaliser une attaque nucléophile sur le carbone, ce qui favorise l’élimination.' },
+        { lettre: 'D', texte: 'L’addition nucléophile sur un carbonyle est un mécanisme fondamental des aldéhydes et cétones.', vraie: true, justification: 'Exact : le nucléophile attaque le carbone électrophile du carbonyle, ce qui ouvre la double liaison C=O.' },
         { lettre: 'E', texte: 'Substitution et élimination ne sont jamais en compétition pour un même substrat.', vraie: false, justification: 'Faux : elles sont fréquemment en compétition, selon la nature du nucléophile/base employé.' },
       ],
       correction: 'Réponses exactes : B, C et D. Addition et élimination sont bien les réactions formellement inverses l’une de l’autre.',
@@ -290,7 +290,7 @@ export const ficheMecanismesReactionnels: Fiche = {
       enonce: 'Concernant l’estérification et l’hydrolyse, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'L’estérification de Fischer est une réaction totale.', vraie: false, justification: 'Faux : c’est une réaction d’équilibre, limitée.' },
-        { lettre: 'B', texte: 'L’hydrolyse d’un ester est la réaction inverse de l’estérification.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'L’hydrolyse d’un ester est la réaction inverse de l’estérification.', vraie: true, justification: 'Exact : l’estérification forme un ester et de l’eau à partir d’un acide et d’un alcool, tandis que l’hydrolyse les reconvertit en acide carboxylique et alcool.' },
         { lettre: 'C', texte: 'La saponification est une hydrolyse acide, réversible.', vraie: false, justification: 'Faux : la saponification est une hydrolyse basique, totale et irréversible.' },
         { lettre: 'D', texte: 'Retirer l’eau formée déplace l’équilibre d’estérification vers la formation de l’ester.', vraie: true, justification: 'Exact, conformément à la loi de Le Chatelier.' },
         { lettre: 'E', texte: 'Les lipases hydrolysent les triglycérides lors de la digestion.', vraie: true, justification: 'Exact, libérant acides gras et glycérol.' },
@@ -305,7 +305,7 @@ export const ficheMecanismesReactionnels: Fiche = {
         { lettre: 'A', texte: 'L’oxydation d’un alcool primaire peut conduire à un aldéhyde puis à un acide carboxylique.', vraie: true, justification: 'Exact, par oxydations successives.' },
         { lettre: 'B', texte: 'Un acide carboxylique représente un état plus réduit qu’un alcool.', vraie: false, justification: 'Faux : l’acide carboxylique est plus oxydé que l’alcool.' },
         { lettre: 'C', texte: 'Le NAD+ est réduit en NADH lors de certaines oxydations organiques.', vraie: true, justification: 'Exact, comme lors de l’oxydation de l’éthanol en acétaldéhyde.' },
-        { lettre: 'D', texte: 'L’alcool déshydrogénase catalyse l’oxydation de l’éthanol en acétaldéhyde.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'L’alcool déshydrogénase catalyse l’oxydation de l’éthanol en acétaldéhyde.', vraie: true, justification: 'Exact : cette enzyme catalyse la première étape du métabolisme de l’éthanol, avec réduction couplée du NAD+ en NADH.' },
         { lettre: 'E', texte: 'Un alcane représente l’état le plus oxydé parmi alcane, alcool, aldéhyde et acide carboxylique.', vraie: false, justification: 'Faux : l’alcane est au contraire l’état le moins oxydé de cette série.' },
       ],
       correction: 'Réponses exactes : A, C et D. Retenir l’ordre croissant d’oxydation : alcane, alcool, aldéhyde/cétone, acide carboxylique.',
@@ -317,7 +317,7 @@ export const ficheMecanismesReactionnels: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Un carbocation tertiaire est plus stable qu’un carbocation primaire.', vraie: true, justification: 'Exact, en raison de l’effet donneur des groupes alkyles voisins.' },
         { lettre: 'B', texte: 'L’inversion de Walden est caractéristique du mécanisme SN1.', vraie: false, justification: 'Faux : elle caractérise le mécanisme SN2, réaction concertée en une seule étape.' },
-        { lettre: 'C', texte: 'Une réaction d’élimination peut être en compétition avec une substitution nucléophile.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Une réaction d’élimination peut être en compétition avec une substitution nucléophile.', vraie: true, justification: 'Exact : selon la nature du nucléophile/base employé et les conditions opératoires, substitution et élimination se disputent fréquemment le même substrat.' },
         { lettre: 'D', texte: 'L’estérification et l’hydrolyse d’un ester peuvent toutes deux être catalysées par un acide.', vraie: true, justification: 'Exact, il s’agit d’un même équilibre catalysé dans les deux sens.' },
         { lettre: 'E', texte: 'Le groupement carbonyle n’est jamais le siège d’une addition nucléophile.', vraie: false, justification: 'Faux : l’addition nucléophile sur le carbonyle est au contraire un mécanisme fondamental de sa réactivité.' },
       ],

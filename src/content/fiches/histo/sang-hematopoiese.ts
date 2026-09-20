@@ -395,7 +395,7 @@ export const ficheSangHematopoiese: Fiche = {
           lettre: 'C',
           texte: 'Sa durée de vie moyenne est d’environ 120 jours.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : au-delà de cette durée, la perte de déformabilité et de résistance membranaire conduit à l’élimination de l’hématie sénescente par les macrophages spléniques.',
         },
         {
           lettre: 'D',
@@ -421,7 +421,7 @@ export const ficheSangHematopoiese: Fiche = {
           lettre: 'A',
           texte: 'Le polynucléaire neutrophile est le leucocyte le plus fréquent dans le sang.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : il représente environ 50 à 70 % des leucocytes circulants, ce qui en fait le premier acteur de la défense antibactérienne aiguë.',
         },
         {
           lettre: 'B',
@@ -465,7 +465,7 @@ export const ficheSangHematopoiese: Fiche = {
           lettre: 'B',
           texte: 'Les plaquettes proviennent de la fragmentation du mégacaryocyte médullaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le mégacaryocyte, cellule polyploïde géante de la moelle osseuse, émet des prolongements cytoplasmiques qui se fragmentent en plaquettes libérées dans la circulation.',
         },
         {
           lettre: 'C',
@@ -497,7 +497,7 @@ export const ficheSangHematopoiese: Fiche = {
           lettre: 'A',
           texte: 'La moelle osseuse rouge est le siège principal de l’hématopoïèse chez l’adulte.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : chez l’adulte, elle se concentre dans les os plats et les épiphyses des os longs, où se déroule la production continue des cellules sanguines.',
         },
         {
           lettre: 'B',
@@ -535,7 +535,7 @@ export const ficheSangHematopoiese: Fiche = {
           lettre: 'A',
           texte: 'L’érythropoïétine stimule spécifiquement la lignée érythrocytaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : elle favorise la survie, la prolifération et la différenciation des progéniteurs érythroïdes de la moelle osseuse.',
         },
         {
           lettre: 'B',

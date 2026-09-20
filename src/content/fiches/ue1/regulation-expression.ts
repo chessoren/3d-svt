@@ -384,7 +384,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'A',
           texte: 'C’est un opéron répressible.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'À l’inverse de l’opéron lactose, il est transcrit par défaut et n’est réprimé que lorsque le tryptophane, présent en excès, active son répresseur.',
         },
         {
           lettre: 'B',
@@ -396,7 +396,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'C',
           texte: 'En l’absence de tryptophane, les gènes de biosynthèse sont transcrits.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Sans tryptophane, le répresseur reste inactif et ne se fixe pas sur l’opérateur, ce qui permet la transcription des gènes nécessaires à sa propre synthèse.',
         },
         {
           lettre: 'D',
@@ -434,7 +434,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'C',
           texte: 'Ils fixent des facteurs de transcription spécifiques.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces séquences régulatrices contiennent des sites de liaison reconnus par des facteurs de transcription particuliers, ce qui module l’activité du promoteur associé.',
         },
         {
           lettre: 'D',
@@ -446,7 +446,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'E',
           texte: 'Ils entrent en contact avec le complexe de préinitiation par une boucle d’ADN.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Même distant du promoteur, l’enhancer se rapproche physiquement de lui grâce à un repliement de l’ADN en boucle, permettant aux facteurs qu’il fixe d’agir sur le complexe de préinitiation.',
         },
       ],
       correction: 'Réponses exactes : C, D et E. Les enhancers se caractérisent justement par leur indépendance de position et d’orientation.',
@@ -460,7 +460,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'A',
           texte: 'La méthylation de l’ADN est en règle générale associée à une répression de la transcription.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'La méthylation des cytosines, notamment au niveau des îlots CpG des promoteurs, gêne la fixation des facteurs de transcription et recrute des protéines qui compactent la chromatine.',
         },
         {
           lettre: 'B',
@@ -472,13 +472,13 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'C',
           texte: 'Les histones désacétylases retirent les groupements acétyle des histones.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'En retirant les groupements acétyle, ces enzymes restaurent la charge positive des histones, ce qui resserre leur liaison à l’ADN et favorise la condensation de la chromatine.',
         },
         {
           lettre: 'D',
           texte: 'La méthylation de l’ADN peut être une marque héritable au cours des divisions cellulaires.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Des ADN méthyltransférases de maintenance reproduisent le profil de méthylation sur le brin néosynthétisé après chaque réplication, transmettant ainsi la marque épigénétique aux cellules filles.',
         },
         {
           lettre: 'E',
@@ -498,7 +498,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'A',
           texte: 'De petits ARN guident un complexe effecteur vers un ARN messager cible.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Un petit ARN simple brin, chargé dans le complexe RISC, s’apparie par complémentarité de bases à sa cible et guide ainsi ce complexe vers l’ARN messager à réprimer.',
         },
         {
           lettre: 'B',
@@ -510,7 +510,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'C',
           texte: 'Une complémentarité parfaite entre le petit ARN et sa cible favorise la dégradation de l’ARN messager.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Un appariement parfait permet au complexe RISC de cliver directement l’ARN messager cible, comme c’est typiquement le cas des petits ARN interférents.',
         },
         {
           lettre: 'D',
@@ -542,7 +542,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'B',
           texte: 'Elle repose sur des marques de méthylation différentielles selon l’origine parentale.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Un allèle est méthylé et donc réprimé selon qu’il provient du père ou de la mère, ce qui aboutit à une expression monoallélique dépendant de l’origine parentale.',
         },
         {
           lettre: 'C',
@@ -554,7 +554,7 @@ export const ficheRegulationExpression: Fiche = {
           lettre: 'D',
           texte: 'Un gène soumis à empreinte n’est exprimé qu’à partir d’un seul des deux allèles parentaux.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'C’est le principe même de l’empreinte parentale : l’un des deux allèles est silencieux par méthylation, ne laissant s’exprimer que l’allèle hérité de l’autre parent.',
         },
         {
           lettre: 'E',

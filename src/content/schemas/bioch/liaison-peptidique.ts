@@ -36,8 +36,8 @@ export const schemaLiaisonPeptidique: Schema = {
         <text x="184" y="2" font-size="15" fill="#d4380d">O</text>
         <line x1="160" y1="30" x2="180" y2="42" stroke="#475467" stroke-width="2"/>
         <text x="184" y="50" font-size="15" fill="#175cd3">OH</text>
-        <circle cx="200" cy="46" r="13" fill="#175cd3" opacity="0.14"/>
-        <text x="196" y="51" font-size="12" font-weight="700" fill="#175cd3">1</text>
+        <circle cx="216" cy="62" r="13" fill="#175cd3" opacity="0.14"/>
+        <text x="212" y="67" font-size="12" font-weight="700" fill="#175cd3">1</text>
       </g>
 
       <text x="332" y="150" font-size="30" fill="#98a2b3">+</text>
@@ -114,8 +114,8 @@ export const schemaLiaisonPeptidique: Schema = {
         <text x="288" y="86" font-size="15" font-weight="600" fill="#e0632f">R₂</text>
         <line x1="312" y1="34" x2="348" y2="34" stroke="#475467" stroke-width="2"/>
         <text x="354" y="40" font-size="15" fill="#475467">COOH</text>
-        <circle cx="398" cy="34" r="13" fill="#e0632f" opacity="0.16"/>
-        <text x="394" y="39" font-size="12" font-weight="700" fill="#e0632f">5</text>
+        <circle cx="410" cy="56" r="13" fill="#e0632f" opacity="0.16"/>
+        <text x="406" y="61" font-size="12" font-weight="700" fill="#e0632f">5</text>
       </g>
 
       <!-- Encadré mésomérie -->

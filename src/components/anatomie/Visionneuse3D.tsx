@@ -21,12 +21,33 @@ import {
 
 const HAUTEUR_CORPS = 1.75;
 
+/**
+ * Champ de vision vertical de la caméra, en degrés. La distance des vues
+ * prédéfinies en découle : pour cadrer une hauteur H, il faut se placer à
+ * H / (2 x tan(fov / 2)). On vise 2,25 m de hauteur utile pour un corps de
+ * 1,75 m : la marge laisse respirer la silhouette et évite que les pieds
+ * passent sous les réglages posés en bas du canevas.
+ */
+const CHAMP_DE_VISION = 34;
+const DISTANCE_PLEIN_CORPS =
+  2.25 / (2 * Math.tan((CHAMP_DE_VISION / 2) * (Math.PI / 180)));
+
+/** Le regard vise légèrement sous le centre du corps pour remonter la silhouette. */
+const REGARD = new THREE.Vector3(0, -0.06, 0);
+
+/** Place la caméra à la distance de cadrage, dans la direction demandée. */
+function vue(x: number, y: number, z: number, facteur = 1) {
+  return new THREE.Vector3(x, y, z).normalize().multiplyScalar(DISTANCE_PLEIN_CORPS * facteur);
+}
+
+const POSITION_INITIALE = vue(0.62, 0.2, 0.78, 0.94);
+
 const VUES = [
-  { id: 'face', nom: 'Face', position: new THREE.Vector3(0, 0.1, 3.05) },
-  { id: 'dos', nom: 'Dos', position: new THREE.Vector3(0, 0.1, -3.05) },
-  { id: 'profil', nom: 'Profil', position: new THREE.Vector3(3.05, 0.1, 0) },
-  { id: 'trois-quarts', nom: 'Trois quarts', position: new THREE.Vector3(1.9, 0.6, 2.2) },
-  { id: 'dessus', nom: 'Dessus', position: new THREE.Vector3(0.001, 3.1, 0.02) },
+  { id: 'face', nom: 'Face', position: vue(0, 0.04, 1) },
+  { id: 'dos', nom: 'Dos', position: vue(0, 0.04, -1) },
+  { id: 'profil', nom: 'Profil', position: vue(1, 0.04, 0.001) },
+  { id: 'trois-quarts', nom: 'Trois quarts', position: POSITION_INITIALE },
+  { id: 'dessus', nom: 'Dessus', position: vue(0.001, 1, 0.05) },
 ];
 
 const AXES_COUPE = [
@@ -124,7 +145,7 @@ export function Visionneuse3D({ urlsFiches }: { urlsFiches: Record<string, strin
     setRecherche('');
     setCoupe({ axe: null, position: 0, inverse: false });
     setRegion('tout');
-    setVueDemandee({ position: new THREE.Vector3(1.9, 0.6, 2.2), regard: new THREE.Vector3(0, 0, 0) });
+    setVueDemandee({ position: POSITION_INITIALE.clone(), regard: REGARD.clone() });
   }, []);
 
   useEffect(() => {
@@ -183,7 +204,12 @@ export function Visionneuse3D({ urlsFiches }: { urlsFiches: Record<string, strin
       <div className="relative flex min-h-0 flex-1">
         {/* Canevas 3D */}
         <Canvas
-          camera={{ position: [1.9, 0.6, 2.2], fov: 38, near: 0.05, far: 60 }}
+          camera={{
+            position: [POSITION_INITIALE.x, POSITION_INITIALE.y, POSITION_INITIALE.z],
+            fov: CHAMP_DE_VISION,
+            near: 0.02,
+            far: 60,
+          }}
           dpr={[1, 1.8]}
           gl={{ antialias: true, alpha: true, preserveDrawingBuffer: true }}
           onPointerMissed={() => setSelection(null)}
@@ -232,9 +258,9 @@ export function Visionneuse3D({ urlsFiches }: { urlsFiches: Record<string, strin
               makeDefault
               enableDamping
               dampingFactor={0.07}
-              minDistance={0.22}
+              minDistance={0.18}
               maxDistance={6}
-              target={[0, 0, 0]}
+              target={[REGARD.x, REGARD.y, REGARD.z]}
               panSpeed={0.8}
               rotateSpeed={0.85}
               zoomSpeed={0.9}
@@ -315,7 +341,7 @@ export function Visionneuse3D({ urlsFiches }: { urlsFiches: Record<string, strin
                 key={vue.id}
                 type="button"
                 onClick={() =>
-                  setVueDemandee({ position: vue.position.clone(), regard: new THREE.Vector3(0, 0, 0) })
+                  setVueDemandee({ position: vue.position.clone(), regard: REGARD.clone() })
                 }
                 className="rounded-xl px-3 py-1.5 text-[12px] font-medium transition-colors hover:bg-[var(--surface-2)]"
                 style={{ color: 'var(--texte-2)' }}

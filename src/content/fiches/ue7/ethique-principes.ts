@@ -384,7 +384,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'A',
           texte: 'Ils ont été formalisés par Beauchamp et Childress.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ces deux philosophes américains sont à l’origine de l’approche principiste en éthique biomédicale.',
         },
         {
           lettre: 'B',
@@ -396,7 +396,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'C',
           texte: 'La justice concerne notamment la répartition équitable des ressources de santé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le principe de justice impose une répartition équitable des soins, sans discrimination fondée sur des critères non pertinents.',
         },
         {
           lettre: 'D',
@@ -422,13 +422,13 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'A',
           texte: 'Il fonde l’exigence du consentement libre et éclairé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : respecter l’autonomie, c’est reconnaître au patient la capacité de décider par lui-même, ce qui suppose son consentement préalable.',
         },
         {
           lettre: 'B',
           texte: 'Il suppose une information claire et adaptée au patient.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : une décision n’est réellement autonome que si elle s’appuie sur une information claire, loyale et adaptée à la situation du patient.',
         },
         {
           lettre: 'C',
@@ -460,7 +460,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'A',
           texte: 'La non-malfaisance correspond au principe hippocratique primum non nocere.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ce principe ancien, « d’abord ne pas nuire », correspond à l’obligation négative de ne pas exposer le patient à un risque disproportionné.',
         },
         {
           lettre: 'B',
@@ -472,7 +472,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'C',
           texte: 'L’évaluation du rapport bénéfice-risque articule ces deux principes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : peser le bénéfice attendu (bienfaisance) contre le risque encouru (non-malfaisance) est la façon concrète de concilier ces deux exigences pour chaque patient.',
         },
         {
           lettre: 'D',
@@ -498,7 +498,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'A',
           texte: 'Le principe de justice interdit toute discrimination fondée sur des critères non pertinents dans l’accès aux soins.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la justice impose une répartition équitable des soins, sans discrimination fondée sur l’origine, le sexe, la situation sociale ou le handicap.',
         },
         {
           lettre: 'B',
@@ -510,7 +510,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'C',
           texte: 'La dignité peut être invoquée pour le respect dû à un patient en fin de vie.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la dignité est due à toute personne indépendamment de son état de santé ou de son autonomie, y compris au patient en fin de vie.',
         },
         {
           lettre: 'D',
@@ -536,7 +536,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'A',
           texte: 'La déontologie est un ensemble de devoirs professionnels codifiés.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : contrairement à l’éthique, la déontologie repose sur des règles écrites et codifiées, sanctionnables sur le plan disciplinaire.',
         },
         {
           lettre: 'B',
@@ -548,13 +548,13 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'C',
           texte: 'La morale désigne des valeurs et règles de conduite souvent d’origine culturelle ou religieuse.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la morale est perçue comme un ensemble de valeurs relativement fixes et normatives, à la différence de l’éthique qui interroge une situation singulière.',
         },
         {
           lettre: 'D',
           texte: 'Le manquement à la déontologie peut faire l’objet d’une sanction disciplinaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est justement ce qui distingue la déontologie de la morale ou de l’éthique, son caractère contraignant et sanctionnable.',
         },
         {
           lettre: 'E',
@@ -574,7 +574,7 @@ export const ficheEthiquePrincipes: Fiche = {
           lettre: 'A',
           texte: 'Elle privilégie une démarche collective et argumentée.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la délibération éthique repose sur la confrontation des points de vue de l’équipe soignante et, si possible, du patient, plutôt que sur une décision isolée.',
         },
         {
           lettre: 'B',

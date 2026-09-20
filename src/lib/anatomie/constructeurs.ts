@@ -290,17 +290,25 @@ export function construireGeometrie(spec: FormeAnatomique): THREE.BufferGeometry
       const morceaux = spec.elements.map(construireGeometrie).filter((g) => g.attributes.position);
       if (morceaux.length === 0) return new THREE.BufferGeometry();
       if (morceaux.length === 1) return morceaux[0];
-      const fusion = mergeGeometries(
-        morceaux.map((g) => {
-          const copie = g.clone();
-          copie.deleteAttribute('uv');
-          copie.deleteAttribute('uv1');
-          return copie;
-        }),
-        false,
-      );
+      // Les primitives de three.js ne sont pas toutes indexées : une extrusion ne
+      // l'est pas, une sphère l'est. La fusion exige une forme homogène, on
+      // ramène donc tout le monde au format non indexé.
+      const normalises = morceaux.map((g) => {
+        const copie = g.index ? g.toNonIndexed() : g.clone();
+        copie.deleteAttribute('uv');
+        copie.deleteAttribute('uv1');
+        copie.deleteAttribute('uv2');
+        return copie;
+      });
+      const fusion = mergeGeometries(normalises, false);
       morceaux.forEach((g) => g.dispose());
-      return fusion ?? new THREE.BufferGeometry();
+      normalises.forEach((g) => g.dispose());
+      if (!fusion) {
+        console.warn('Fusion de géométries impossible pour un groupe anatomique.');
+        return new THREE.BufferGeometry();
+      }
+      fusion.computeVertexNormals();
+      return fusion;
     }
     default:
       return new THREE.BufferGeometry();

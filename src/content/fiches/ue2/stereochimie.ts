@@ -302,7 +302,7 @@ export const ficheStereochimie: Fiche = {
       id: 'ue2-stereochimie-qcm-04',
       enonce: 'Concernant les séries D et L et les diastéréoisomères, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'La série D ou L se détermine par comparaison au glycéraldéhyde de référence.', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'La série D ou L se détermine par comparaison au glycéraldéhyde de référence.', vraie: true, justification: 'Exact : l’appartenance à la série D ou L se définit par comparaison de la configuration du carbone de référence avec celle du D- ou du L-glycéraldéhyde.' },
         { lettre: 'B', texte: 'Appartenir à la série L implique nécessairement une déviation lévogyre de la lumière polarisée.', vraie: false, justification: 'Faux : la série D/L et le signe dextrogyre/lévogyre sont deux classifications indépendantes.' },
         { lettre: 'C', texte: 'Deux diastéréoisomères sont images l’un de l’autre dans un miroir.', vraie: false, justification: 'Faux : c’est la définition des énantiomères, pas des diastéréoisomères.' },
         { lettre: 'D', texte: 'Deux diastéréoisomères peuvent avoir des points de fusion différents.', vraie: true, justification: 'Exact, à la différence des énantiomères.' },
@@ -318,7 +318,7 @@ export const ficheStereochimie: Fiche = {
         { lettre: 'A', texte: 'Les conformères s’interconvertissent par simple rotation autour d’une liaison simple.', vraie: true, justification: 'Exact, sans rupture de liaison.' },
         { lettre: 'B', texte: 'La conformation éclipsée est plus stable que la conformation décalée.', vraie: false, justification: 'Faux : c’est l’inverse, la conformation décalée est plus stable.' },
         { lettre: 'C', texte: 'La stéréoisomérie de conformation nécessite de rompre une liaison covalente pour interconvertir les formes.', vraie: false, justification: 'Faux : c’est la stéréoisomérie de configuration qui nécessite la rupture d’une liaison, pas la conformation.' },
-        { lettre: 'D', texte: 'Les conformations décalée et éclipsée résultent d’une rotation autour d’une liaison C-C simple.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'Les conformations décalée et éclipsée résultent d’une rotation autour d’une liaison C-C simple.', vraie: true, justification: 'Exact : la libre rotation autour d’une liaison C-C simple engendre les conformations décalée et éclipsée, positions remarquables parmi une infinité de conformères possibles.' },
         { lettre: 'E', texte: 'La conformation la plus stable minimise les répulsions stériques entre substituants.', vraie: true, justification: 'Exact, ce qui explique la stabilité relative de la forme décalée.' },
       ],
       correction: 'Réponses exactes : A, D et E. Bien distinguer stéréoisomérie de configuration et de conformation.',

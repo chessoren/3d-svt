@@ -412,7 +412,7 @@ export const fichePhysiologieCardiaque: Fiche = {
           lettre: 'A',
           texte: 'L’onde P correspond à la dépolarisation des oreillettes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : elle traduit la propagation de l’onde de dépolarisation à travers le myocarde auriculaire, initiée par le nœud sinusal.',
         },
         {
           lettre: 'B',

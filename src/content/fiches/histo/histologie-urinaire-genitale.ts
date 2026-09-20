@@ -435,7 +435,7 @@ export const ficheHistologieUrinaireGenitale: Fiche = {
           lettre: 'D',
           texte: 'La branche grêle de l’anse de Henle est bordée par un épithélium pavimenteux simple.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cet épithélium aplati et dépourvu de bordure en brosse contraste avec l’épithélium cubique de la branche large, porteur des transporteurs actifs.',
         },
         {
           lettre: 'E',

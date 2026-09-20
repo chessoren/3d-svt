@@ -451,7 +451,7 @@ export const ficheHistoireMedecine: Fiche = {
           lettre: 'E',
           texte: 'Il exerce notamment à Rome au IIe siècle après Jésus-Christ.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : Galien y systématise et complète la théorie humorale hippocratique, s’appuyant sur la dissection d’animaux, seule pratique alors autorisée.',
         },
       ],
       correction: 'Réponses exactes : B et E.',
@@ -477,7 +477,7 @@ export const ficheHistoireMedecine: Fiche = {
           lettre: 'C',
           texte: 'Rhazès décrit la distinction clinique entre variole et rougeole.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette description clinique princeps illustre l’approche fine au chevet du malade caractéristique de la médecine arabo-musulmane.',
         },
         {
           lettre: 'D',
@@ -503,7 +503,7 @@ export const ficheHistoireMedecine: Fiche = {
           lettre: 'A',
           texte: 'Vésale publie le De humani corporis fabrica en 1543.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cet atlas anatomique, fondé sur l’observation directe du corps humain disséqué, marque la naissance de l’anatomie moderne.',
         },
         {
           lettre: 'B',
@@ -547,7 +547,7 @@ export const ficheHistoireMedecine: Fiche = {
           lettre: 'B',
           texte: 'Laennec invente le stéthoscope au début du XIXe siècle.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette invention permet l’auscultation médiate et enrichit considérablement l’examen clinique de la méthode anatomoclinique.',
         },
         {
           lettre: 'C',
@@ -585,7 +585,7 @@ export const ficheHistoireMedecine: Fiche = {
           lettre: 'B',
           texte: 'Pasteur développe un vaccin contre la rage.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : à partir de germes atténués, il pose ainsi les fondements de la vaccination moderne.',
         },
         {
           lettre: 'C',
@@ -603,7 +603,7 @@ export const ficheHistoireMedecine: Fiche = {
           lettre: 'E',
           texte: 'Les postulats de Koch permettent d’établir un lien de causalité entre un micro-organisme et une maladie.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ces critères rigoureux formalisent, en complément des travaux de Pasteur, la démonstration du lien entre un germe précis et une maladie infectieuse donnée.',
         },
       ],
       correction: 'Réponses exactes : A, B, C et E.',

@@ -366,7 +366,7 @@ export const fichePhysiologieDigestive: Fiche = {
           lettre: 'D',
           texte: 'La salive contient de l’amylase salivaire, qui amorce la digestion de l’amidon.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : l’amylase salivaire hydrolyse les liaisons alpha-1,4 de l’amidon dès la mastication, avant que l’acidité gastrique n’inactive l’enzyme.',
         },
         {
           lettre: 'E',
@@ -424,7 +424,7 @@ export const fichePhysiologieDigestive: Fiche = {
           lettre: 'A',
           texte: 'La sécrétine est sécrétée par les cellules S duodénales en réponse à l’acidité du chyme.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : l’abaissement du pH duodénal stimule les cellules S, qui libèrent la sécrétine pour déclencher la sécrétion pancréatique de bicarbonate.',
         },
         {
           lettre: 'B',
@@ -442,7 +442,7 @@ export const fichePhysiologieDigestive: Fiche = {
           lettre: 'D',
           texte: 'La gastrine est stimulée par la distension gastrique et les peptides intraluminaux.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ces stimuli activent les cellules G de l’antre, qui libèrent la gastrine pour stimuler la sécrétion acide des cellules pariétales.',
         },
         {
           lettre: 'E',

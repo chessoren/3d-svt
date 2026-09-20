@@ -253,10 +253,10 @@ export const ficheSolutionsConcentrations: Fiche = {
       id: 'ue2-solutions-concentrations-qcm-01',
       enonce: 'Concernant les expressions de la concentration, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'La molarité s’exprime en mol/L.', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'La molarité s’exprime en mol/L.', vraie: true, justification: 'Exact : la molarité, ou concentration molaire, exprime une quantité de matière de soluté par litre de solution, en mol/L.' },
         { lettre: 'B', texte: 'La molalité est rapportée au volume total de la solution.', vraie: false, justification: 'Faux : elle est rapportée à la masse du solvant, non au volume de la solution.' },
         { lettre: 'C', texte: 'La fraction molaire est sans unité.', vraie: true, justification: 'Exact : c’est un rapport de deux quantités de matière.' },
-        { lettre: 'D', texte: 'La concentration massique s’exprime généralement en g/L.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'La concentration massique s’exprime généralement en g/L.', vraie: true, justification: 'Exact : la concentration massique exprime une masse de soluté par litre de solution, généralement en g/L.' },
         { lettre: 'E', texte: 'La somme des fractions molaires des constituants d’un mélange peut dépasser 1.', vraie: false, justification: 'Faux : cette somme vaut toujours exactement 1.' },
       ],
       correction: 'Réponses exactes : A, C et D. Retenir que la fraction molaire est une grandeur sans dimension dont la somme vaut 1.',
@@ -267,9 +267,9 @@ export const ficheSolutionsConcentrations: Fiche = {
       enonce: 'Concernant la dilution, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'La dilution modifie la quantité de matière totale de soluté.', vraie: false, justification: 'Faux : la dilution ajoute du solvant mais conserve la quantité de matière de soluté.' },
-        { lettre: 'B', texte: 'La relation C1·V1 = C2·V2 est valable lors d’une dilution.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'La relation C1·V1 = C2·V2 est valable lors d’une dilution.', vraie: true, justification: 'Exact : le produit concentration × volume, qui représente la quantité de matière de soluté, se conserve lors d’une dilution.' },
         { lettre: 'C', texte: 'Deux dilutions successives au dixième donnent un facteur de dilution global de 1/20.', vraie: false, justification: 'Faux : les facteurs se multiplient, donnant un facteur global de 1/100.' },
-        { lettre: 'D', texte: 'Diluer une solution en diminue la concentration.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'Diluer une solution en diminue la concentration.', vraie: true, justification: 'Exact : diluer ajoute du solvant sans changer la quantité de matière de soluté, ce qui abaisse mécaniquement sa concentration.' },
         { lettre: 'E', texte: 'Le facteur de dilution F est égal à V2/V1.', vraie: true, justification: 'Exact, V2 étant le volume final et V1 le volume prélevé de solution mère.' },
       ],
       correction: 'Réponses exactes : B, D et E. Bien composer les facteurs lors de dilutions en cascade.',
@@ -281,7 +281,7 @@ export const ficheSolutionsConcentrations: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'L’osmolarité du glucose à 1 mmol/L est de 1 mOsm/L.', vraie: true, justification: 'Exact : le glucose ne se dissocie pas, son facteur i vaut 1.' },
         { lettre: 'B', texte: 'L’osmolarité de CaCl2 à 1 mmol/L est de 2 mOsm/L.', vraie: false, justification: 'Faux : CaCl2 se dissocie en trois particules (Ca2+ + 2 Cl−), son facteur i vaut 3, soit 3 mOsm/L.' },
-        { lettre: 'C', texte: 'L’osmolarité plasmatique physiologique est proche de 285 à 295 mOsm/L.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'L’osmolarité plasmatique physiologique est proche de 285 à 295 mOsm/L.', vraie: true, justification: 'Exact : l’osmolarité plasmatique physiologique se situe entre 285 et 295 mOsm/L.' },
         { lettre: 'D', texte: 'La pression osmotique est inversement proportionnelle à l’osmolarité.', vraie: false, justification: 'Faux : elle lui est directement proportionnelle.' },
         { lettre: 'E', texte: 'L’osmolarité tient compte de la dissociation ionique d’un soluté.', vraie: true, justification: 'Exact, via le facteur de van’t Hoff i.' },
       ],
@@ -294,7 +294,7 @@ export const ficheSolutionsConcentrations: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Une cellule placée en milieu hypertonique gonfle.', vraie: false, justification: 'Faux : elle se rétracte, l’eau sortant de la cellule vers le milieu plus concentré.' },
         { lettre: 'B', texte: 'Une cellule placée en milieu isotonique ne change pas de volume.', vraie: true, justification: 'Exact, l’osmolarité étant équilibrée de part et d’autre de la membrane.' },
-        { lettre: 'C', texte: 'Le sérum physiologique à 9 g/L de NaCl est approximativement isotonique au plasma.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Le sérum physiologique à 9 g/L de NaCl est approximativement isotonique au plasma.', vraie: true, justification: 'Exact : cette concentration de 9 g/L, qui donne son nom au sérum physiologique, se rapproche de l’osmolarité du plasma.' },
         { lettre: 'D', texte: 'L’eau se déplace toujours du compartiment le plus concentré vers le compartiment le moins concentré.', vraie: false, justification: 'Faux : l’eau se déplace vers le compartiment le plus concentré (hypertonique), et non l’inverse.' },
         { lettre: 'E', texte: 'Un milieu hypotonique peut provoquer la lyse d’une cellule.', vraie: true, justification: 'Exact, en cas d’entrée d’eau massive dans la cellule.' },
       ],
@@ -307,7 +307,7 @@ export const ficheSolutionsConcentrations: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Ks est une constante qui dépend de la température.', vraie: true, justification: 'Exact, comme toute constante d’équilibre.' },
         { lettre: 'B', texte: 'Si le produit ionique est inférieur à Ks, la solution est sursaturée.', vraie: false, justification: 'Faux : elle est non saturée dans ce cas ; la sursaturation correspond à un produit ionique supérieur à Ks.' },
-        { lettre: 'C', texte: 'Un précipité se forme lorsque le produit ionique dépasse Ks.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Un précipité se forme lorsque le produit ionique dépasse Ks.', vraie: true, justification: 'Exact : au-delà de Ks, la solution est sursaturée et l’excès d’ions précipite jusqu’à ce que le produit ionique redescende à la valeur de Ks.' },
         { lettre: 'D', texte: 'Le Ks dépend de la quantité de solide en excès présente dans la solution.', vraie: false, justification: 'Faux : le Ks ne dépend que de la température, pas de la quantité de solide en excès.' },
         { lettre: 'E', texte: 'Le produit de solubilité peut expliquer la formation de calculs rénaux d’oxalate de calcium.', vraie: true, justification: 'Exact, lorsque le produit des concentrations en calcium et en oxalate dépasse le Ks correspondant.' },
       ],
@@ -319,7 +319,7 @@ export const ficheSolutionsConcentrations: Fiche = {
       enonce: 'Concernant les calculs de concentration, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'La molalité est utile pour certains calculs indépendants de la température.', vraie: true, justification: 'Exact, car elle est rapportée à une masse de solvant invariable.' },
-        { lettre: 'B', texte: 'La molarité varie légèrement avec la température, car le volume de la solution en dépend.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'La molarité varie légèrement avec la température, car le volume de la solution en dépend.', vraie: true, justification: 'Exact : le volume d’une solution se dilate ou se contracte légèrement avec la température, ce qui fait varier la molarité alors que la quantité de soluté reste constante.' },
         { lettre: 'C', texte: 'Une solution où le soluté représente une fraction molaire de 0,2 contient forcément 20 % en masse de ce soluté.', vraie: false, justification: 'Faux : la fraction molaire est un rapport de quantités de matière, pas de masses, ces deux grandeurs ne coïncidant que si les masses molaires des constituants sont égales.' },
         { lettre: 'D', texte: 'La concentration massique s’obtient en multipliant la concentration molaire par la masse molaire du soluté.', vraie: true, justification: 'Exact : concentration massique = C (mol/L) × M (g/mol).' },
         { lettre: 'E', texte: 'Un volume final V2 obtenu par dilution est toujours inférieur au volume prélevé V1.', vraie: false, justification: 'Faux : V2 est le volume final après ajout de solvant, il est donc supérieur au volume prélevé V1.' },

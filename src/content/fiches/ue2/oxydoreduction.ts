@@ -257,7 +257,7 @@ export const ficheOxydoreduction: Fiche = {
       enonce: 'Concernant le nombre d’oxydation, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'Le nombre d’oxydation d’un ion monoatomique est égal à sa charge.', vraie: true, justification: 'Exact, par définition.' },
-        { lettre: 'B', texte: 'La somme des nombres d’oxydation dans une espèce neutre est toujours nulle.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'La somme des nombres d’oxydation dans une espèce neutre est toujours nulle.', vraie: true, justification: 'Exact : dans une espèce neutre, les nombres d’oxydation attribués aux différents atomes se compensent exactement.' },
         { lettre: 'C', texte: 'L’hydrogène a systématiquement un nombre d’oxydation de -I.', vraie: false, justification: 'Faux : il vaut le plus souvent +I, sauf dans les hydrures métalliques où il vaut -I.' },
         { lettre: 'D', texte: 'Une oxydation se traduit par une diminution du nombre d’oxydation.', vraie: false, justification: 'Faux : une oxydation se traduit par une augmentation du nombre d’oxydation.' },
         { lettre: 'E', texte: 'Le nombre d’oxydation d’un élément à l’état simple est nul.', vraie: true, justification: 'Exact, comme dans O2 ou Fe métallique.' },
@@ -270,7 +270,7 @@ export const ficheOxydoreduction: Fiche = {
       enonce: 'Concernant les couples rédox et les demi-équations, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'Un couple rédox est relié par un transfert de proton.', vraie: false, justification: 'Faux : un couple rédox est relié par un transfert d’électrons, non de proton.' },
-        { lettre: 'B', texte: 'La demi-équation Ox + n e− ⇌ Red décrit un couple rédox.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'La demi-équation Ox + n e− ⇌ Red décrit un couple rédox.', vraie: true, justification: 'Exact : cette demi-équation traduit l’échange de n électrons entre la forme oxydée et la forme réduite d’un même couple.' },
         { lettre: 'C', texte: 'Dans une réaction rédox globale, le nombre total d’électrons échangés doit être identique entre les deux demi-équations combinées.', vraie: true, justification: 'Exact, pour que les électrons s’annulent dans le bilan final.' },
         { lettre: 'D', texte: 'L’oxydant d’un couple se transforme en son réducteur conjugué en perdant des électrons.', vraie: false, justification: 'Faux : l’oxydant se transforme en réducteur en gagnant des électrons.' },
         { lettre: 'E', texte: 'Équilibrer une demi-équation en milieu acide peut nécessiter l’ajout d’ions H+.', vraie: true, justification: 'Exact, pour équilibrer l’hydrogène après avoir équilibré l’oxygène avec des molécules d’eau.' },
@@ -283,9 +283,9 @@ export const ficheOxydoreduction: Fiche = {
       enonce: 'Concernant le potentiel standard d’oxydoréduction, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'L’électrode standard à hydrogène a un potentiel fixé par convention à 0 volt.', vraie: true, justification: 'Exact : c’est la référence de l’échelle des potentiels rédox.' },
-        { lettre: 'B', texte: 'Un couple de potentiel standard élevé a une forme oxydée fortement oxydante.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'Un couple de potentiel standard élevé a une forme oxydée fortement oxydante.', vraie: true, justification: 'Exact : plus le potentiel standard E° d’un couple est élevé, plus sa forme oxydée a tendance à capter des électrons, donc à oxyder.' },
         { lettre: 'C', texte: 'La réaction spontanée fait réagir l’oxydant du couple de plus bas potentiel avec le réducteur du couple de plus haut potentiel.', vraie: false, justification: 'Faux : c’est l’inverse, l’oxydant du couple de plus haut potentiel réagit avec le réducteur du couple de plus bas potentiel.' },
-        { lettre: 'D', texte: 'La relation ΔrG° = −n·F·E° relie thermodynamique et électrochimie.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'La relation ΔrG° = −n·F·E° relie thermodynamique et électrochimie.', vraie: true, justification: 'Exact : cette relation relie l’enthalpie libre standard de réaction ΔrG° au potentiel standard E°, via le nombre d’électrons échangés n et la constante de Faraday F.' },
         { lettre: 'E', texte: 'Un E° négatif signifie que la forme réduite du couple est un réducteur fort.', vraie: true, justification: 'Exact : un E° bas traduit un fort pouvoir réducteur de la forme réduite.' },
       ],
       correction: 'Réponses exactes : A, B, D et E. Bien retenir le sens correct de la règle du classement électrochimique.',
@@ -295,11 +295,11 @@ export const ficheOxydoreduction: Fiche = {
       id: 'ue2-oxydoreduction-qcm-04',
       enonce: 'Concernant l’équation de Nernst, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'Elle permet de calculer le potentiel réel d’un couple hors conditions standard.', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'Elle permet de calculer le potentiel réel d’un couple hors conditions standard.', vraie: true, justification: 'Exact : l’équation de Nernst donne le potentiel réel E d’un couple en fonction des concentrations effectives de ses formes oxydée et réduite.' },
         { lettre: 'B', texte: 'Quand [Ox] = [Red], le potentiel E est nul.', vraie: false, justification: 'Faux : dans ce cas, le terme logarithmique s’annule et E est égal à E°, non à zéro.' },
         { lettre: 'C', texte: 'Une augmentation de la concentration en oxydant augmente le potentiel E du couple.', vraie: true, justification: 'Exact, conformément au sens du logarithme dans l’équation de Nernst.' },
         { lettre: 'D', texte: 'E° est une grandeur qui varie en fonction des concentrations du milieu.', vraie: false, justification: 'Faux : E° est une constante caractéristique du couple, définie en conditions standard.' },
-        { lettre: 'E', texte: 'F représente la constante de Faraday.', vraie: true, justification: 'Exact.' },
+        { lettre: 'E', texte: 'F représente la constante de Faraday.', vraie: true, justification: 'Exact : F est la constante de Faraday, qui vaut environ 96 500 C/mol.' },
       ],
       correction: 'Réponses exactes : A, C et E. Bien distinguer potentiel standard (constante) et potentiel réel (variable selon Nernst).',
       difficulte: 3,
@@ -309,7 +309,7 @@ export const ficheOxydoreduction: Fiche = {
       enonce: 'Concernant la chaîne respiratoire mitochondriale, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'Le couple NAD+/NADH a un potentiel standard plus bas que le couple O2/H2O.', vraie: true, justification: 'Exact : environ −0,32 V contre environ +0,82 V.' },
-        { lettre: 'B', texte: 'L’oxygène est l’accepteur final d’électrons de la chaîne respiratoire.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'L’oxygène est l’accepteur final d’électrons de la chaîne respiratoire.', vraie: true, justification: 'Exact : le couple O2/H2O, de potentiel standard le plus élevé de la chaîne, accepte les électrons en dernier lieu.' },
         { lettre: 'C', texte: 'Les cytochromes transportent les électrons grâce au fer de leur groupement hème.', vraie: true, justification: 'Exact, par alternance entre Fe3+ et Fe2+.' },
         { lettre: 'D', texte: 'Le transfert d’électrons le long de la chaîne respiratoire est globalement endergonique.', vraie: false, justification: 'Faux : il est globalement exergonique, l’énergie libérée servant à créer un gradient de protons.' },
         { lettre: 'E', texte: 'Les couples de la chaîne respiratoire sont classés par potentiel standard décroissant, du NAD+/NADH vers l’O2/H2O.', vraie: false, justification: 'Faux : ils sont classés par potentiel standard croissant.' },
@@ -323,7 +323,7 @@ export const ficheOxydoreduction: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Une réaction rédox implique toujours un couple oxydant et un couple réducteur distincts.', vraie: true, justification: 'Exact : un réducteur cède ses électrons à un oxydant d’un autre couple.' },
         { lettre: 'B', texte: 'Le mnémotechnique « OIL RIG » signifie que la réduction est une perte d’électrons.', vraie: false, justification: 'Faux : « Reduction Is Gain » signifie que la réduction est un gain d’électrons.' },
-        { lettre: 'C', texte: 'L’oxydant d’un couple gagne des électrons pour former le réducteur conjugué.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'L’oxydant d’un couple gagne des électrons pour former le réducteur conjugué.', vraie: true, justification: 'Exact : en captant des électrons, l’oxydant d’un couple se transforme en son réducteur conjugué.' },
         { lettre: 'D', texte: 'Dans une pile, l’oxydation a lieu à l’anode.', vraie: true, justification: 'Exact, tandis que la réduction a lieu à la cathode.' },
         { lettre: 'E', texte: 'Un même élément ne peut jamais présenter plusieurs nombres d’oxydation différents.', vraie: false, justification: 'Faux : un même élément, comme le fer ou le soufre, peut présenter plusieurs nombres d’oxydation selon le composé considéré.' },
       ],

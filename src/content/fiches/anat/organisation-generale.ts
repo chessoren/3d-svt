@@ -442,7 +442,7 @@ export const ficheOrganisationGenerale: Fiche = {
       enonce: 'Concernant les mouvements articulaires, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'La pronation oriente la paume de la main vers l’arrière.', vraie: true, justification: 'Exact, c’est la définition de la pronation de l’avant-bras.' },
-        { lettre: 'B', texte: 'La flexion dorsale de cheville rapproche le dos du pied de la jambe.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'La flexion dorsale de cheville rapproche le dos du pied de la jambe.', vraie: true, justification: 'Ce mouvement, réalisé par les muscles de la loge antérieure de la jambe, diminue l’angle entre le dos du pied et la face antérieure de la jambe.' },
         { lettre: 'C', texte: 'La circumduction est un mouvement pur, réalisé dans un seul plan.', vraie: false, justification: 'Faux : elle combine successivement des mouvements dans plusieurs plans, décrivant un cône.' },
         { lettre: 'D', texte: 'L’adduction rapproche le membre du plan sagittal médian.', vraie: true, justification: 'Exact, c’est le mouvement opposé à l’abduction.' },
         { lettre: 'E', texte: 'La rotation latérale oriente la face antérieure du segment vers le plan médian.', vraie: false, justification: 'Faux : c’est la rotation médiale qui oriente la face antérieure vers le plan médian ; la rotation latérale l’en éloigne.' },
@@ -458,7 +458,7 @@ export const ficheOrganisationGenerale: Fiche = {
         { lettre: 'B', texte: 'Le péritoine tapisse la cavité crânienne.', vraie: false, justification: 'Faux : la cavité crânienne est tapissée par les méninges ; le péritoine tapisse la cavité abdominopelvienne.' },
         { lettre: 'C', texte: 'Chaque séreuse comporte un feuillet pariétal et un feuillet viscéral.', vraie: true, justification: 'Exact, c’est l’organisation commune à toutes les séreuses.' },
         { lettre: 'D', texte: 'L’espace entre les deux feuillets d’une séreuse est habituellement comblé par du tissu conjonctif dense.', vraie: false, justification: 'Faux : il s’agit d’un espace virtuel contenant un film liquidien, non de tissu conjonctif dense.' },
-        { lettre: 'E', texte: 'Le péricarde séreux entoure le cœur et la racine des gros vaisseaux.', vraie: true, justification: 'Exact.' },
+        { lettre: 'E', texte: 'Le péricarde séreux entoure le cœur et la racine des gros vaisseaux.', vraie: true, justification: 'Comme toute séreuse, il comporte un feuillet viscéral appliqué au cœur et un feuillet pariétal, permettant le glissement lors des battements cardiaques.' },
       ],
       correction: 'Réponses exactes : A, C et E.',
       difficulte: 1,

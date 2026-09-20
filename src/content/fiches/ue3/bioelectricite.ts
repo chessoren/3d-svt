@@ -573,7 +573,7 @@ export const ficheBioelectricite: Fiche = {
           lettre: 'A',
           texte: 'L’onde P correspond à la dépolarisation des oreillettes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : l’onde P de l’ECG traduit la dépolarisation des oreillettes, qui précède leur contraction.',
         },
         {
           lettre: 'B',

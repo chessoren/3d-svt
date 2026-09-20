@@ -294,7 +294,7 @@ export const ficheThermodynamique: Fiche = {
         { lettre: 'B', texte: 'L’entropie du système seul, hors extérieur, peut diminuer lors d’une transformation spontanée.', vraie: true, justification: 'Exact, à condition que l’entropie du milieu extérieur augmente davantage, comme lors du repliement d’une protéine.' },
         { lettre: 'C', texte: 'L’entropie mesure le degré de désordre du système.', vraie: true, justification: 'Exact, ou de façon plus rigoureuse, le nombre de configurations microscopiques accessibles.' },
         { lettre: 'D', texte: 'Le second principe s’applique uniquement à l’entropie du système chimique étudié.', vraie: false, justification: 'Faux : il concerne l’entropie de l’univers, système plus milieu extérieur.' },
-        { lettre: 'E', texte: 'Le second principe traduit l’irréversibilité des phénomènes naturels.', vraie: true, justification: 'Exact.' },
+        { lettre: 'E', texte: 'Le second principe traduit l’irréversibilité des phénomènes naturels.', vraie: true, justification: 'Exact : selon le second principe, l’entropie de l’univers augmente au cours de toute transformation réelle, ce qui traduit son caractère irréversible.' },
       ],
       correction: 'Réponses exactes : B, C et E. Le point B est un piège classique bien illustré par le repliement protéique.',
       difficulte: 3,

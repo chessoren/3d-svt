@@ -363,7 +363,7 @@ export const ficheParasitologieMycologie: Fiche = {
       id: 'ue5-parasitologie-mycologie-qcm-03',
       enonce: 'Concernant la toxoplasmose, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'Elle est due à un protozoaire, Toxoplasma gondii.', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'Elle est due à un protozoaire, Toxoplasma gondii.', vraie: true, justification: 'Exact : Toxoplasma gondii est un protozoaire intracellulaire dont l’hôte définitif est le chat, qui héberge le cycle de reproduction sexuée du parasite.' },
         { lettre: 'B', texte: 'La transmission peut se faire par ingestion de viande peu cuite.', vraie: true, justification: 'Exact, tout comme le contact avec des kystes environnementaux via les chats.' },
         { lettre: 'C', texte: 'La primo-infection pendant la grossesse est sans risque pour le fœtus.', vraie: false, justification: 'Elle expose au contraire à un risque de toxoplasmose congénitale, potentiellement grave.' },
         { lettre: 'D', texte: 'Le dépistage sérologique est systématique chez la femme enceinte non immunisée en France.', vraie: true, justification: 'Exact, dans le cadre du suivi prénatal.' },
@@ -378,7 +378,7 @@ export const ficheParasitologieMycologie: Fiche = {
       propositions: [
         { lettre: 'A', texte: 'Le schistosome pénètre l’organisme humain par voie transcutanée.', vraie: true, justification: 'Exact, via les cercaires libérées par le mollusque hôte intermédiaire.' },
         { lettre: 'B', texte: 'Le schistosome nécessite un mollusque d’eau douce comme hôte intermédiaire.', vraie: true, justification: 'Exact : c’est là que se déroule la multiplication asexuée larvaire.' },
-        { lettre: 'C', texte: 'Taenia saginata se transmet par ingestion de viande bovine crue ou insuffisamment cuite.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Taenia saginata se transmet par ingestion de viande bovine crue ou insuffisamment cuite.', vraie: true, justification: 'Exact : l’homme se contamine en ingérant des larves cysticerques présentes dans la viande de bœuf parasitée, insuffisamment cuite.' },
         { lettre: 'D', texte: 'L’oxyurose se transmet exclusivement par piqûre d’insecte.', vraie: false, justification: 'L’oxyurose se transmet par voie féco-orale directe interhumaine, pas par piqûre d’insecte.' },
         { lettre: 'E', texte: 'Ascaris lumbricoides se transmet par ingestion d’œufs présents dans le sol ou sur des aliments souillés.', vraie: true, justification: 'Exact, c’est une contamination oro-fécale environnementale.' },
       ],
@@ -392,7 +392,7 @@ export const ficheParasitologieMycologie: Fiche = {
         { lettre: 'A', texte: 'Les levures se multiplient par bourgeonnement.', vraie: true, justification: 'Exact, comme Candida albicans.' },
         { lettre: 'B', texte: 'Les dermatophytes sont des levures.', vraie: false, justification: 'Les dermatophytes sont des champignons filamenteux, pas des levures.' },
         { lettre: 'C', texte: 'Un champignon dimorphique change de forme selon la température.', vraie: true, justification: 'Exact : filamenteux dans l’environnement, levuriforme à 37°C dans l’organisme.' },
-        { lettre: 'D', texte: 'Aspergillus est un exemple de champignon filamenteux.', vraie: true, justification: 'Exact.' },
+        { lettre: 'D', texte: 'Aspergillus est un exemple de champignon filamenteux.', vraie: true, justification: 'Exact : Aspergillus se développe sous forme de filaments mycéliens (hyphes), à la différence des levures qui se multiplient par bourgeonnement unicellulaire.' },
         { lettre: 'E', texte: 'Cryptococcus neoformans est un champignon filamenteux.', vraie: false, justification: 'Cryptococcus neoformans est une levure, pas un champignon filamenteux.' },
       ],
       correction: 'Réponses exactes : A, C et D. Bien distinguer levures et champignons filamenteux à partir d’exemples précis.',

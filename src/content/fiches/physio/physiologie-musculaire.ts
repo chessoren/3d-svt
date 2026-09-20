@@ -459,13 +459,13 @@ export const fichePhysiologieMusculaire: Fiche = {
           lettre: 'B',
           texte: 'Le récepteur DHPR agit comme senseur de voltage dans le tubule T.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la dépolarisation du tubule T modifie sa conformation, ce qui est transmis mécaniquement au récepteur RyR1 du réticulum sarcoplasmique voisin.',
         },
         {
           lettre: 'C',
           texte: 'Le récepteur RyR1 libère le calcium stocké dans le réticulum sarcoplasmique.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : activé par le changement de conformation du DHPR, ce canal calcique s’ouvre et libère le calcium stocké dans le réticulum sarcoplasmique vers le cytosol.',
         },
         {
           lettre: 'D',
@@ -477,7 +477,7 @@ export const fichePhysiologieMusculaire: Fiche = {
           lettre: 'E',
           texte: 'La pompe SERCA recapture le calcium cytosolique lors de la relaxation.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette pompe ATP-dépendante ramène activement le calcium cytosolique dans le réticulum sarcoplasmique, permettant le détachement de la troponine C et la relaxation musculaire.',
         },
       ],
       correction: 'Réponses exactes : B, C et E. Le couplage mécanique DHPR-RyR1 distingue le muscle squelettique du muscle cardiaque.',
@@ -503,7 +503,7 @@ export const fichePhysiologieMusculaire: Fiche = {
           lettre: 'C',
           texte: 'La fixation de l’ATP sur la myosine provoque le détachement du pont transversal.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est la fixation de l’ATP, et non son hydrolyse, qui dissocie la tête de myosine de l’actine à la fin du cycle du pont transversal.',
         },
         {
           lettre: 'D',
@@ -611,7 +611,7 @@ export const fichePhysiologieMusculaire: Fiche = {
           lettre: 'B',
           texte: 'Le tétanos complet résulte d’une fréquence de stimulation suffisamment élevée pour empêcher toute relaxation perceptible.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : les secousses successives fusionnent complètement lorsque l’intervalle entre les stimulations devient plus court que la durée de la secousse, produisant une contraction soutenue et lisse.',
         },
         {
           lettre: 'C',

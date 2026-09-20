@@ -525,7 +525,7 @@ export const ficheTissuNerveux: Fiche = {
           lettre: 'B',
           texte: 'Le périnèvre entoure chaque faisceau (fascicule) de fibres nerveuses.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette gaine conjonctive dense forme aussi une barrière de diffusion qui contribue à l’homéostasie de l’environnement endoneural.',
         },
         {
           lettre: 'C',
@@ -543,7 +543,7 @@ export const ficheTissuNerveux: Fiche = {
           lettre: 'E',
           texte: 'L’endonèvre est un tissu conjonctif lâche entourant chaque fibre nerveuse.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ce tissu conjonctif lâche et richement vascularisé entoure individuellement chaque fibre nerveuse et ses cellules de Schwann à l’intérieur du fascicule.',
         },
       ],
       correction: 'Réponses exactes : B, C et E. Retenir l’analogie structurale avec le muscle strié squelettique.',

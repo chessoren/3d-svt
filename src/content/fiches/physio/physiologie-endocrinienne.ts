@@ -417,7 +417,7 @@ export const fichePhysiologieEndocrinienne: Fiche = {
           lettre: 'C',
           texte: 'La thyroperoxydase catalyse l’organification de l’iode sur la thyroglobuline.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette enzyme catalyse l’oxydation de l’iodure puis sa fixation sur les résidus tyrosine de la thyroglobuline, étape indispensable à la synthèse des hormones thyroïdiennes.',
         },
         {
           lettre: 'D',
@@ -467,7 +467,7 @@ export const fichePhysiologieEndocrinienne: Fiche = {
           lettre: 'E',
           texte: 'La zone fasciculée est sous contrôle principal de l’ACTH.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : l’ACTH hypophysaire stimule la stéroïdogenèse de la zone fasciculée et conditionne la sécrétion de cortisol, à la différence de la zone glomérulée régulée surtout par le système rénine-angiotensine.',
         },
       ],
       correction: 'Réponses exactes : B, D et E. Le cortex surrénalien comprend trois zones aux hormones et régulations distinctes.',
@@ -493,7 +493,7 @@ export const fichePhysiologieEndocrinienne: Fiche = {
           lettre: 'C',
           texte: 'L’insuline favorise la captation musculaire du glucose via le transporteur GLUT4.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la fixation de l’insuline sur son récepteur provoque la translocation des transporteurs GLUT4 vers la membrane des cellules musculaires et adipeuses, augmentant l’entrée du glucose.',
         },
         {
           lettre: 'D',
@@ -519,7 +519,7 @@ export const fichePhysiologieEndocrinienne: Fiche = {
           lettre: 'A',
           texte: 'La parathormone est sécrétée en réponse à une hypocalcémie.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la baisse de la calcémie est détectée par les récepteurs sensibles au calcium des glandes parathyroïdes, ce qui stimule la sécrétion de PTH.',
         },
         {
           lettre: 'B',
@@ -537,7 +537,7 @@ export const fichePhysiologieEndocrinienne: Fiche = {
           lettre: 'D',
           texte: 'La calcitonine est sécrétée par les cellules parafolliculaires (cellules C) de la thyroïde.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ces cellules, distinctes des thyréocytes folliculaires, sécrètent la calcitonine en réponse à une hypercalcémie.',
         },
         {
           lettre: 'E',
@@ -563,7 +563,7 @@ export const fichePhysiologieEndocrinienne: Fiche = {
           lettre: 'B',
           texte: 'La calcémie totale normale se situe entre 2,20 et 2,60 mmol/L.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette valeur de référence correspond à la calcémie totale, qui inclut le calcium lié aux protéines, le calcium ionisé étant la fraction biologiquement active.',
         },
         {
           lettre: 'C',

@@ -344,7 +344,7 @@ export const ficheStructureAtome: Fiche = {
       enonce: 'Concernant l’organisation de la classification périodique, quelles propositions sont exactes ?',
       propositions: [
         { lettre: 'A', texte: 'Les éléments d’une même colonne ont la même configuration électronique de valence.', vraie: true, justification: 'Exact, ce qui explique leurs propriétés chimiques voisines.' },
-        { lettre: 'B', texte: 'Le numéro de la période correspond à la valeur de n de la couche externe.', vraie: true, justification: 'Exact.' },
+        { lettre: 'B', texte: 'Le numéro de la période correspond à la valeur de n de la couche externe.', vraie: true, justification: 'Exact : le numéro de période correspond au nombre quantique principal n de la couche de valence.' },
         { lettre: 'C', texte: 'Les gaz nobles appartiennent au bloc d.', vraie: false, justification: 'Faux : ils appartiennent au bloc p, à l’exception de l’hélium qui appartient au bloc s.' },
         { lettre: 'D', texte: 'Les alcalins ont pour configuration de valence ns2.', vraie: false, justification: 'Faux : leur configuration de valence est ns1.' },
         { lettre: 'E', texte: 'Les lanthanides et les actinides appartiennent au bloc f.', vraie: true, justification: 'Exact : ce sont les éléments dont la sous-couche 4f ou 5f est en cours de remplissage.' },

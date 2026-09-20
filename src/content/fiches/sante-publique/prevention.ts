@@ -337,7 +337,7 @@ export const fichePrevention: Fiche = {
         { lettre: 'B', texte: "L’éducation pour la santé vise à améliorer les connaissances et compétences individuelles.", vraie: true, justification: 'Exact, c’est sa définition.' },
         { lettre: 'C', texte: "La Charte d’Ottawa définit la promotion de la santé comme un processus donnant aux populations les moyens d’agir sur leur santé.", vraie: true, justification: "Exact, c’est la définition retenue par la Charte d’Ottawa." },
         { lettre: 'D', texte: "La promotion de la santé exclut toute politique publique non sanitaire.", vraie: false, justification: "Faux : l’un de ses axes est justement l’élaboration d’une politique publique saine, intégrant la santé dans toutes les politiques." },
-        { lettre: 'E', texte: 'La Charte d’Ottawa a été adoptée en 1986.', vraie: true, justification: 'Exact.' },
+        { lettre: 'E', texte: 'La Charte d’Ottawa a été adoptée en 1986.', vraie: true, justification: 'Exact : elle a été adoptée lors de la première Conférence internationale pour la promotion de la santé, tenue à Ottawa en 1986 sous l’égide de l’OMS.' },
       ],
       correction: 'Réponses exactes : B, C et E.',
       difficulte: 2,

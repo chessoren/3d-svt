@@ -108,6 +108,7 @@ export const ORGANES: PieceAnatomique[] = [
     region: 'tete',
     couleur: '#f3f6fb',
     miroir: true,
+    detail: true,
     description:
       'Organe de la vision, sphère d’environ vingt-quatre millimètres de diamètre, formée de trois tuniques : fibreuse, vasculaire et nerveuse.',
     reperes: [
@@ -119,8 +120,8 @@ export const ORGANES: PieceAnatomique[] = [
     geometrie: {
       forme: 'groupe',
       elements: [
-        { forme: 'ellipsoide', centre: [0.032, R.glabelle - 0.024, 0.064], rayons: [0.012, 0.012, 0.012] },
-        { forme: 'ellipsoide', centre: [0.032, R.glabelle - 0.024, 0.074], rayons: [0.006, 0.006, 0.004] },
+        { forme: 'ellipsoide', centre: [0.032, R.glabelle - 0.026, 0.05], rayons: [0.0115, 0.0115, 0.0115] },
+        { forme: 'ellipsoide', centre: [0.032, R.glabelle - 0.026, 0.059], rayons: [0.0055, 0.0055, 0.004] },
       ],
     },
   },

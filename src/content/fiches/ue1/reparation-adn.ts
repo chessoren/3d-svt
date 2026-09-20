@@ -368,7 +368,7 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'B',
           texte: 'Les dimères de pyrimidines sont induits par les rayonnements ultraviolets.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'L’énergie des UV crée une liaison covalente aberrante entre deux pyrimidines adjacentes d’un même brin, déformant localement la double hélice.',
         },
         {
           lettre: 'C',
@@ -400,7 +400,7 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'A',
           texte: 'Elle débute par l’action d’une ADN glycosylase.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Cette enzyme reconnaît spécifiquement une base endommagée et hydrolyse la liaison N-osidique qui la relie au squelette sucre-phosphate, initiant ainsi la voie de réparation.',
         },
         {
           lettre: 'B',
@@ -412,7 +412,7 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'C',
           texte: 'Elle génère un site abasique intermédiaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'En retirant uniquement la base endommagée, l’ADN glycosylase laisse un désoxyribose sans base sur le squelette, appelé site abasique ou site AP.',
         },
         {
           lettre: 'D',
@@ -438,7 +438,7 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'A',
           texte: 'Elle est particulièrement sollicitée pour réparer les dimères de pyrimidines.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces lésions volumineuses, qui déforment fortement la double hélice, sont typiquement prises en charge par cette voie, contrairement aux petites lésions ponctuelles réparées par excision de base.',
         },
         {
           lettre: 'B',
@@ -456,13 +456,13 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'D',
           texte: 'Son déficit héréditaire est en cause dans le xeroderma pigmentosum.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Une mutation dans l’un des gènes de cette voie empêche la réparation des dimères induits par les UV, provoquant l’accumulation de mutations cutanées et la photosensibilité extrême caractéristique de la maladie.',
         },
         {
           lettre: 'E',
           texte: 'Elle utilise le brin complémentaire intact comme matrice de resynthèse.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Après excision du segment lésé, une ADN polymérase resynthétise la portion manquante en copiant fidèlement le brin complémentaire non endommagé.',
         },
       ],
       correction: 'Réponses exactes : A, C, D et E. Retenir la taille du segment excisé, plus large qu’en excision de base.',
@@ -482,13 +482,13 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'B',
           texte: 'Elle corrige des erreurs échappées à la relecture exonucléasique.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ce système de réparation constitue un second filtre de sécurité, agissant après la relecture de l’ADN polymérase pour corriger les rares mésappariements qui lui ont échappé.',
         },
         {
           lettre: 'C',
           texte: 'Son déficit héréditaire est associé au syndrome de Lynch.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Une mutation constitutionnelle dans un gène de ce système de réparation des mésappariements est à l’origine du syndrome de Lynch, prédisposant notamment au cancer colorectal.',
         },
         {
           lettre: 'D',
@@ -552,7 +552,7 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'A',
           texte: 'Le xeroderma pigmentosum se caractérise par une photosensibilité cutanée extrême.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'L’incapacité à réparer les dimères de pyrimidines induits par les UV entraîne une hypersensibilité cutanée sévère et un risque très élevé de cancers cutanés dès l’exposition au soleil.',
         },
         {
           lettre: 'B',
@@ -564,13 +564,13 @@ export const ficheReparationAdn: Fiche = {
           lettre: 'C',
           texte: 'Le syndrome de Lynch prédispose au cancer colorectal.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Le déficit héréditaire du système de réparation des mésappariements laisse s’accumuler des erreurs de réplication non corrigées, ce qui augmente fortement le risque de cancer colorectal.',
         },
         {
           lettre: 'D',
           texte: 'Une mutation constitutionnelle de BRCA1 ou BRCA2 prédispose au cancer du sein et de l’ovaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces protéines sont essentielles à la recombinaison homologue ; leur déficit compromet la réparation fidèle des cassures double brin et prédispose aux cancers du sein et de l’ovaire.',
         },
         {
           lettre: 'E',

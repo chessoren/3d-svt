@@ -132,7 +132,10 @@ function PieceRendue({
   onSurvol: (id: string | null) => void;
 }) {
   const systeme = SYSTEME_PAR_ID[piece.systeme];
-  const materiau = useRef<THREE.MeshStandardMaterial>(null);
+  // Une pièce paire est rendue deux fois : les deux matériaux doivent réagir
+  // ensemble au survol, à la sélection et à l'atténuation.
+  const materiauPrincipal = useRef<THREE.MeshStandardMaterial>(null);
+  const materiauMiroir = useRef<THREE.MeshStandardMaterial>(null);
 
   const couleurBase = useMemo(
     () => new THREE.Color(piece.couleur ?? systeme.couleur),
@@ -145,14 +148,18 @@ function PieceRendue({
 
   // Transition douce de la couleur et de l'opacité, sans re-création du matériau.
   useFrame((_, delta) => {
-    const m = materiau.current;
-    if (!m) return;
     const cible = selectionnee ? couleurSelection : survolee ? couleurEclairee : couleurBase;
-    m.color.lerp(cible, Math.min(1, delta * 12));
-    m.opacity += (opaciteCible - m.opacity) * Math.min(1, delta * 12);
-    m.transparent = m.opacity < 0.995;
-    m.depthWrite = m.opacity > 0.65;
-    m.emissiveIntensity += ((selectionnee ? 0.28 : survolee ? 0.14 : 0) - m.emissiveIntensity) * Math.min(1, delta * 12);
+    const emission = selectionnee ? 0.28 : survolee ? 0.14 : 0;
+    const pas = Math.min(1, delta * 12);
+    for (const reference of [materiauPrincipal, materiauMiroir]) {
+      const m = reference.current;
+      if (!m) continue;
+      m.color.lerp(cible, pas);
+      m.opacity += (opaciteCible - m.opacity) * pas;
+      m.transparent = m.opacity < 0.995;
+      m.depthWrite = m.opacity > 0.65;
+      m.emissiveIntensity += (emission - m.emissiveIntensity) * pas;
+    }
   });
 
   if (!visible) return null;
@@ -178,7 +185,7 @@ function PieceRendue({
       }}
     >
       <meshStandardMaterial
-        ref={miroir ? undefined : materiau}
+        ref={miroir ? materiauMiroir : materiauPrincipal}
         color={couleurBase}
         roughness={systeme.rugosite}
         metalness={systeme.metallique}

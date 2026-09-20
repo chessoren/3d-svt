@@ -525,7 +525,7 @@ export const ficheOrganisationGenome: Fiche = {
           lettre: 'C',
           texte: 'Le caryotype normal d’un homme s’écrit 46,XY.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Un homme possède quarante-quatre autosomes et une paire de chromosomes sexuels hétéromorphe X et Y, d’où la formule chromosomique 46,XY.',
         },
         {
           lettre: 'D',
@@ -537,7 +537,7 @@ export const ficheOrganisationGenome: Fiche = {
           lettre: 'E',
           texte: 'La coloration en bandes G utilise le plus souvent le Giemsa.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Après digestion enzymatique, ce colorant se fixe préférentiellement sur les régions riches en adénine et thymine, faisant apparaître l’alternance de bandes claires et sombres caractéristique du caryotype en bandes G.',
         },
       ],
       correction: 'Réponses exactes : A, C et E. Retenir la nomenclature p et q ainsi que le nombre total de quarante-six chromosomes.',
@@ -551,7 +551,7 @@ export const ficheOrganisationGenome: Fiche = {
           lettre: 'A',
           texte: 'L’ADN satellite se localise préférentiellement au niveau du centromère.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces longues séquences répétées en tandem constituent l’hétérochromatine constitutive centromérique et péricentromérique, essentielle à la cohésion et à la ségrégation des chromosomes.',
         },
         {
           lettre: 'B',

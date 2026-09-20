@@ -347,7 +347,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'B',
           texte: 'Elles sont considérées comme systématiques et évitables.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est précisément ce caractère systématique et évitable, et non de simples variations aléatoires, qui définit les inégalités sociales de santé.',
         },
         {
           lettre: 'C',
@@ -359,7 +359,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'D',
           texte: 'Elles sont liées à la position sociale, notamment le revenu et le niveau d’études.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ces inégalités sont définies par leur lien avec la position du groupe dans la hiérarchie sociale, dont le revenu et le niveau d’études sont des marqueurs classiques.',
         },
         {
           lettre: 'E',
@@ -379,7 +379,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'A',
           texte: 'Ils incluent les conditions de logement et de travail.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le logement, l’exposition professionnelle et la pénibilité du travail figurent parmi les conditions de vie et de travail, catégorie classique des déterminants sociaux de la santé.',
         },
         {
           lettre: 'B',
@@ -391,7 +391,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'C',
           texte: 'Le soutien social et le réseau familial en font partie.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : les réseaux sociaux et le soutien familial ou communautaire constituent une catégorie à part entière des déterminants sociaux de la santé.',
         },
         {
           lettre: 'D',
@@ -403,7 +403,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'E',
           texte: 'La densité de l’offre de soins peut être considérée comme un déterminant social ou territorial de la santé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : elle relève de la catégorie environnement et territoire, qui recoupe souvent les inégalités sociales et territoriales de santé.',
         },
       ],
       correction: 'Réponses exactes : A, C et E.',
@@ -417,7 +417,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'A',
           texte: 'Le parcours de soins désigne l’ensemble des étapes du patient dans le système de santé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est la définition même du parcours de soins, du premier recours à la prise en charge spécialisée.',
         },
         {
           lettre: 'B',
@@ -429,7 +429,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'C',
           texte: 'Les personnes en situation de précarité cumulent souvent plusieurs obstacles à l’accès aux soins.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le cumul d’obstacles financiers, géographiques et organisationnels aggrave les inégalités de santé déjà présentes chez les personnes précaires.',
         },
         {
           lettre: 'D',
@@ -455,7 +455,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'A',
           texte: 'Il dispense la personne malade de certaines obligations sociales habituelles.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est l’un des deux volets du rôle de malade selon Parsons, en contrepartie du devoir de chercher à guérir et de coopérer avec les soignants.',
         },
         {
           lettre: 'B',
@@ -473,7 +473,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'D',
           texte: 'Il a été développé par le sociologue Talcott Parsons.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est ce sociologue qui a formalisé le concept de rôle de malade (sick role).',
         },
         {
           lettre: 'E',
@@ -493,7 +493,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'A',
           texte: 'Elle désigne l’extension du champ de définition médicale à des phénomènes auparavant non médicaux.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est la définition même de la médicalisation, qui fait passer des phénomènes du registre social, moral ou éducatif au registre médical.',
         },
         {
           lettre: 'B',
@@ -505,13 +505,13 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'C',
           texte: 'Elle peut comporter un risque de surdiagnostic.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le surdiagnostic et la dépendance accrue à l’expertise médicale figurent parmi les risques classiquement associés à la médicalisation.',
         },
         {
           lettre: 'D',
           texte: 'Elle peut concerner des étapes normales de la vie comme le vieillissement.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la naissance et le vieillissement sont des exemples classiques d’étapes de la vie progressivement prises en charge comme des problèmes médicaux.',
         },
         {
           lettre: 'E',
@@ -537,13 +537,13 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'B',
           texte: 'Les normes corporelles évoluent selon les époques et les cultures.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : les normes esthétiques, de santé ou de performance sont socialement construites et varient dans le temps et selon les cultures.',
         },
         {
           lettre: 'C',
           texte: 'Le rapport au corps peut varier selon le milieu social.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : certaines catégories socioprofessionnelles valorisent davantage l’apparence, d’autres la fonctionnalité ou l’endurance physique liée au travail.',
         },
         {
           lettre: 'D',
@@ -555,7 +555,7 @@ export const ficheSociologieSante: Fiche = {
           lettre: 'E',
           texte: 'La médecine, en intervenant sur le corps, s’inscrit dans un contexte social et culturel.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ce contexte influence les attentes du patient et les représentations qu’il se fait du soin.',
         },
       ],
       correction: 'Réponses exactes : B, C et E.',

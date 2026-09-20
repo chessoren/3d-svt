@@ -560,7 +560,7 @@ export const ficheGenetiqueMendelienne: Fiche = {
           lettre: 'E',
           texte: 'Une expressivité variable peut expliquer des différences cliniques entre plusieurs membres atteints d’une même famille.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Un même génotype pathogène peut se traduire par des tableaux cliniques de sévérité différente d’un individu à l’autre, y compris au sein d’une même famille : c’est le principe même de l’expressivité variable.',
         },
       ],
       correction: 'Réponses exactes : A, B, C et E. Bien distinguer les deux notions, l’une binaire, l’autre graduelle.',

@@ -414,10 +414,10 @@ export const ficheAvantBrasMain: Fiche = {
       id: 'anat-avant-bras-main-qcm-06',
       enonce: 'Concernant les muscles intrinsèques de la main, quelles propositions sont exactes ?',
       propositions: [
-        { lettre: 'A', texte: 'Les muscles thénariens sont innervés par le nerf médian.', vraie: true, justification: 'Exact.' },
+        { lettre: 'A', texte: 'Les muscles thénariens sont innervés par le nerf médian.', vraie: true, justification: 'Ils font exception à la règle générale d’innervation ulnaire des muscles intrinsèques de la main, ce qui explique l’amyotrophie thénarienne des atteintes du nerf médian.' },
         { lettre: 'B', texte: 'Les muscles hypothénariens sont innervés par le nerf radial.', vraie: false, justification: 'Faux : ils sont innervés par le nerf ulnaire.' },
-        { lettre: 'C', texte: 'Les interosseux dorsaux sont abducteurs des doigts.', vraie: true, justification: 'Exact.' },
-        { lettre: 'D', texte: 'Les interosseux palmaires sont adducteurs des doigts.', vraie: true, justification: 'Exact.' },
+        { lettre: 'C', texte: 'Les interosseux dorsaux sont abducteurs des doigts.', vraie: true, justification: 'Ils écartent les doigts de l’axe médian du majeur, selon la règle mnémotechnique DAB (Dorsal ABducteur).' },
+        { lettre: 'D', texte: 'Les interosseux palmaires sont adducteurs des doigts.', vraie: true, justification: 'Ils rapprochent les doigts de l’axe médian du majeur, selon la règle mnémotechnique PAD (Palmar ADducteur).' },
         { lettre: 'E', texte: 'Tous les muscles lombricaux sont innervés par le nerf ulnaire.', vraie: false, justification: 'Faux : les deux lombricaux latéraux sont innervés par le nerf médian, les deux médiaux par le nerf ulnaire.' },
       ],
       correction: 'Réponses exactes : A, C et D.',

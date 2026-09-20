@@ -55,10 +55,14 @@ import { schemaCohorteCasTemoins } from './sante-publique/cohorte-cas-temoins';
 import { schemaPrevention } from './sante-publique/prevention';
 import { schemaTypesEtudes } from './sante-publique/types-etudes';
 import { schemaChromatine } from './ue1/chromatine';
+import { schemaCodeGenetique } from './ue1/code-genetique';
 import { schemaDoubleHelice } from './ue1/double-helice';
 import { schemaMaturationArn } from './ue1/maturation-arn';
+import { schemaPcr } from './ue1/pcr';
 import { schemaReplication } from './ue1/replication';
+import { schemaTraduction } from './ue1/traduction';
 import { schemaTranscription } from './ue1/transcription';
+import { schemaTransmissionsGenetiques } from './ue1/transmissions-genetiques';
 import { schemaIrm } from './ue3/irm';
 import { schemaOptiqueOeil } from './ue3/optique-oeil';
 import { schemaOsmose } from './ue3/osmose';
@@ -133,10 +137,14 @@ export const TOUS_LES_SCHEMAS: Schema[] = [
   schemaPrevention,
   schemaTypesEtudes,
   schemaChromatine,
+  schemaCodeGenetique,
   schemaDoubleHelice,
   schemaMaturationArn,
+  schemaPcr,
   schemaReplication,
+  schemaTraduction,
   schemaTranscription,
+  schemaTransmissionsGenetiques,
   schemaIrm,
   schemaOptiqueOeil,
   schemaOsmose,

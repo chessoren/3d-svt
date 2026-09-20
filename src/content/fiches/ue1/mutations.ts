@@ -347,7 +347,7 @@ export const ficheMutations: Fiche = {
           lettre: 'C',
           texte: 'Les transversions échangent une purine et une pyrimidine.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Par définition, une transversion remplace une base purique par une base pyrimidique ou inversement, contrairement à la transition qui échange deux bases de même catégorie chimique.',
         },
         {
           lettre: 'D',
@@ -379,7 +379,7 @@ export const ficheMutations: Fiche = {
           lettre: 'B',
           texte: 'Une mutation faux-sens peut avoir des conséquences très variables selon l’acide aminé substitué.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Selon que l’acide aminé substitué conserve des propriétés physico-chimiques proches ou très différentes de l’original, la conséquence peut aller d’un effet neutre à une altération majeure de la fonction protéique.',
         },
         {
           lettre: 'C',
@@ -391,7 +391,7 @@ export const ficheMutations: Fiche = {
           lettre: 'D',
           texte: 'La dégénérescence du code génétique explique l’existence des mutations silencieuses.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Plusieurs codons synonymes pouvant coder le même acide aminé, une substitution qui transforme un codon en un autre codon synonyme ne modifie pas la protéine produite.',
         },
         {
           lettre: 'E',
@@ -417,7 +417,7 @@ export const ficheMutations: Fiche = {
           lettre: 'B',
           texte: 'Une délétion d’un seul nucléotide décale le cadre de lecture.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'La perte d’un nucléotide, non multiple de trois, décale le découpage en triplets de tout le message situé en aval, modifiant la totalité de la séquence protéique qui en résulte.',
         },
         {
           lettre: 'C',
@@ -429,7 +429,7 @@ export const ficheMutations: Fiche = {
           lettre: 'D',
           texte: 'Elles aboutissent fréquemment à l’apparition prématurée d’un codon stop.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Le décalage du cadre de lecture génère une nouvelle succession de triplets aléatoires, parmi lesquels un codon stop apparaît fréquemment bien avant la fin normale du message.',
         },
         {
           lettre: 'E',
@@ -449,19 +449,19 @@ export const ficheMutations: Fiche = {
           lettre: 'A',
           texte: 'La trisomie 21 est la trisomie autosomique viable la plus fréquente.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'La petite taille du chromosome 21 limite le déséquilibre génique qu’entraîne sa copie surnuméraire, ce qui en fait la trisomie autosomique compatible avec la vie la plus fréquente à la naissance.',
         },
         {
           lettre: 'B',
           texte: 'La monosomie X est associée au syndrome de Turner.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'L’absence d’un chromosome X, donnant un caryotype 45,X, définit le syndrome de Turner, associé notamment à une petite taille et une dysgénésie gonadique.',
         },
         {
           lettre: 'C',
           texte: 'La non-disjonction chromosomique est le principal mécanisme des aneuploïdies.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'La non-séparation correcte des chromosomes homologues ou des chromatides sœurs lors de la méiose ou de la mitose produit des gamètes ou des cellules avec un chromosome en trop ou en moins, à l’origine des aneuploïdies.',
         },
         {
           lettre: 'D',
@@ -487,7 +487,7 @@ export const ficheMutations: Fiche = {
           lettre: 'A',
           texte: 'Une délétion correspond à la perte d’un segment chromosomique.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'C’est la définition même de la délétion chromosomique, toujours déséquilibrée puisqu’un segment entier de matériel génétique est manquant.',
         },
         {
           lettre: 'B',
@@ -525,13 +525,13 @@ export const ficheMutations: Fiche = {
           lettre: 'A',
           texte: 'Les rayonnements ultraviolets induisent des dimères de pyrimidines.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Les UV créent une liaison covalente aberrante entre deux pyrimidines adjacentes, le plus souvent deux thymines, formant un dimère qui déforme la double hélice et bloque la réplication ou la transcription.',
         },
         {
           lettre: 'B',
           texte: 'Les agents alkylants modifient de façon covalente les bases de l’ADN.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces agents ajoutent de façon covalente un groupement alkyle sur une base de l’ADN, ce qui perturbe son appariement normal et favorise l’incorporation d’une base incorrecte lors de la réplication.',
         },
         {
           lettre: 'C',

@@ -357,7 +357,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'D',
           texte: 'Elle protège l’ARN messager de la dégradation par les exonucléases.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Sa structure particulière en 5′ masque l’extrémité du transcrit, la rendant résistante à l’action des exonucléases 5′-3′ qui dégraderaient sinon l’ARN messager.',
         },
         {
           lettre: 'E',
@@ -383,13 +383,13 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'B',
           texte: 'Elle intervient après clivage de l’ARN au niveau d’un signal spécifique.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Un complexe protéique reconnaît un signal de polyadénylation, clive le transcrit à cet endroit, puis la poly(A) polymérase ajoute la queue poly(A) sur l’extrémité 3′ libérée.',
         },
         {
           lettre: 'C',
           texte: 'La queue poly(A) favorise l’export et la traduction de l’ARN messager.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Reconnue par des protéines de liaison spécifiques, la queue poly(A) facilite le passage du transcrit à travers le pore nucléaire et stimule le recrutement des ribosomes sur le messager.',
         },
         {
           lettre: 'D',
@@ -401,7 +401,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'E',
           texte: 'Elle est couplée à la terminaison de la transcription par l’ARN polymérase II.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Le clivage au signal de polyadénylation déclenche également l’arrêt de la transcription, les deux processus étant physiquement couplés au niveau du complexe d’élongation.',
         },
       ],
       correction: 'Réponses exactes : B, C et E. Ne pas confondre coiffe en 5′ et polyadénylation en 3′.',
@@ -421,19 +421,19 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'B',
           texte: 'Le spliceosome comprend les petites ribonucléoprotéines U1, U2, U4, U5 et U6.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces cinq petites ribonucléoprotéines nucléaires (snRNP) s’assemblent successivement sur le transcrit pour former le spliceosome, la machinerie catalytique de l’épissage.',
         },
         {
           lettre: 'C',
           texte: 'La réaction d’épissage forme un intermédiaire en lasso, ou lariat.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'La première transestérification relie le 5′ de l’intron à l’adénine du point de branchement par une liaison inhabituelle 2′-5′, formant une boucle caractéristique en forme de lasso.',
         },
         {
           lettre: 'D',
           texte: 'Le point de branchement est centré sur une adénine.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'C’est le groupement hydroxyle en 2′ de cette adénine, située près de l’extrémité 3′ de l’intron, qui attaque le site d’épissage 5′ pour amorcer la réaction.',
         },
         {
           lettre: 'E',
@@ -453,7 +453,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'A',
           texte: 'Il permet de produire plusieurs isoformes protéiques à partir d’un même gène.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'En combinant différemment les exons inclus ou exclus, l’épissage alternatif génère plusieurs ARN messagers matures distincts, donc plusieurs protéines, à partir d’un seul gène.',
         },
         {
           lettre: 'B',
@@ -465,7 +465,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'C',
           texte: 'Il peut varier selon le type cellulaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'La disponibilité et l’activité des protéines régulatrices de l’épissage diffèrent d’un tissu à l’autre, ce qui conduit à des profils d’épissage alternatif spécifiques de chaque type cellulaire.',
         },
         {
           lettre: 'D',
@@ -491,7 +491,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'A',
           texte: 'Il s’effectue à travers les complexes du pore nucléaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Ces complexes protéiques insérés dans l’enveloppe nucléaire constituent l’unique voie de passage entre le noyau et le cytoplasme pour l’ARN messager mature.',
         },
         {
           lettre: 'B',
@@ -503,13 +503,13 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'C',
           texte: 'La coiffe et la queue poly(A) participent à la reconnaissance d’un ARN messager mature.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Leur présence conjointe, liée par des protéines spécifiques, signale à la machinerie cellulaire qu’un transcrit a été correctement maturé et peut être exporté puis traduit.',
         },
         {
           lettre: 'D',
           texte: 'Le complexe de jonction exon-exon est déposé pendant l’épissage.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Le spliceosome dépose ce complexe protéique en amont de chaque jonction entre deux exons nouvellement liés, marque qui participe ensuite au contrôle qualité du messager.',
         },
         {
           lettre: 'E',
@@ -529,7 +529,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'A',
           texte: 'La coiffe protège l’extrémité 5′ contre les exonucléases.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Sa structure particulière de 7-méthylguanosine reliée par une liaison 5′-5′ inhabituelle empêche la reconnaissance de l’extrémité par les exonucléases 5′-3′.',
         },
         {
           lettre: 'B',
@@ -541,7 +541,7 @@ export const ficheMaturationArn: Fiche = {
           lettre: 'C',
           texte: 'Les microARN peuvent réprimer la traduction et favoriser la dégradation d’un ARN messager ciblé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'En s’appariant à une séquence complémentaire de la région 3′ non traduite, un microARN associé au complexe RISC bloque l’initiation de la traduction et favorise le raccourcissement puis la dégradation du transcrit ciblé.',
         },
         {
           lettre: 'D',

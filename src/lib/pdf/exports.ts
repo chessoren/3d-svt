@@ -362,6 +362,9 @@ export async function exporterFiche(
   options: OptionsFiche = OPTIONS_COMPLETES,
 ) {
   const pdf = await nouveauDocument(fiche.titre, ue.couleur);
+  // L'en-tête courant est fixé avant la page de garde pour rester identique
+  // sur toutes les pages du document.
+  pdf.definirTitreCourant(`${ue.titre} · ${fiche.titre}`);
   pdf.pageDeGarde({
     surTitre: `${ue.code} · ${ue.titre}`,
     titre: fiche.titre,

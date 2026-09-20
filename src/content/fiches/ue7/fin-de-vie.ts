@@ -378,7 +378,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'A',
           texte: 'Ils visent à soulager la douleur et les autres symptômes.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est l’objectif central des soins palliatifs, avec la préservation de la dignité et le soutien de l’entourage.',
         },
         {
           lettre: 'B',
@@ -402,7 +402,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'E',
           texte: 'L’accès aux soins palliatifs est un droit reconnu pour toute personne dont l’état le requiert.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cet accès n’est pas une simple option mais un droit reconnu à toute personne dont l’état de santé le justifie.',
         },
       ],
       correction: 'Réponses exactes : A, C et E.',
@@ -416,7 +416,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'A',
           texte: 'Elle désigne la poursuite de traitements disproportionnés par rapport au bénéfice attendu.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est la définition même de l’obstination déraisonnable, distincte du simple maintien d’un traitement utile.',
         },
         {
           lettre: 'B',
@@ -428,7 +428,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'C',
           texte: 'Un traitement initialement justifié peut devenir déraisonnable si la situation évolue.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le caractère déraisonnable s’apprécie de façon évolutive, en tenant compte du pronostic et de l’état du patient à chaque instant.',
         },
         {
           lettre: 'D',
@@ -440,7 +440,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'E',
           texte: 'Elle peut concerner la mise en œuvre comme la poursuite d’un traitement.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le refus de l’obstination déraisonnable s’applique aussi bien à la décision de débuter un traitement qu’à celle de le poursuivre.',
         },
       ],
       correction: 'Réponses exactes : A, C et E.',
@@ -454,13 +454,13 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'A',
           texte: 'La décision est prise de façon collégiale.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : elle n’est jamais prise par un seul médecin isolé mais s’appuie sur une concertation avec l’équipe soignante.',
         },
         {
           lettre: 'B',
           texte: 'Elle tient compte de la volonté du patient lorsqu’elle peut être connue.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cette volonté est recherchée par les directives anticipées ou, à défaut, par le témoignage de la personne de confiance ou des proches.',
         },
         {
           lettre: 'C',
@@ -472,7 +472,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'D',
           texte: 'La décision doit être tracée dans le dossier médical.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la décision et sa motivation doivent être expliquées à l’entourage autant que possible et tracées dans le dossier médical.',
         },
         {
           lettre: 'E',
@@ -492,7 +492,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'A',
           texte: 'Elle vise à soulager une souffrance réfractaire.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est l’intention même de cette pratique, réservée aux situations de souffrance jugée insupportable chez un patient dont le pronostic vital est engagé à court terme.',
         },
         {
           lettre: 'B',
@@ -504,13 +504,13 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'C',
           texte: 'Elle est associée à une analgésie.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : l’altération profonde de la conscience est systématiquement associée à une analgésie pour garantir le soulagement du patient.',
         },
         {
           lettre: 'D',
           texte: 'Elle est réservée à des situations précisément définies, encadrées par une procédure collégiale.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : cet encadrement strict garantit que la sédation profonde et continue reste réservée aux situations de souffrance réfractaire précisément identifiées.',
         },
         {
           lettre: 'E',
@@ -530,7 +530,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'A',
           texte: 'Elles peuvent être rédigées par toute personne majeure.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : toute personne majeure peut rédiger des directives anticipées, qu’elle soit ou non atteinte d’une maladie grave au moment de leur rédaction.',
         },
         {
           lettre: 'B',
@@ -548,7 +548,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'D',
           texte: 'Elles priment en principe sur l’avis de la personne de confiance lorsqu’elles existent.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : la personne de confiance ou les proches ne sont consultés qu’en l’absence de directives anticipées connues.',
         },
         {
           lettre: 'E',
@@ -568,7 +568,7 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'A',
           texte: 'Il désigne le processus psychique d’adaptation à la perte d’un proche.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : c’est la définition même du deuil, qui concerne l’entourage du patient décédé.',
         },
         {
           lettre: 'B',
@@ -580,13 +580,13 @@ export const ficheFinDeVie: Fiche = {
           lettre: 'C',
           texte: 'Un deuil peut être considéré comme pathologique s’il reste bloqué de façon prolongée à une phase précoce.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : le blocage prolongé à une phase précoce, avec un retentissement majeur et durable, caractérise un deuil compliqué justifiant un accompagnement spécialisé.',
         },
         {
           lettre: 'D',
           texte: 'L’accompagnement de la fin de vie peut inclure un travail d’anticipation appelé deuil anticipé.',
           vraie: true,
-          justification: 'Exact.',
+          justification: 'Exact : ce travail psychique d’anticipation concerne les proches d’un patient encore en vie mais dont la fin de vie est engagée.',
         },
         {
           lettre: 'E',
