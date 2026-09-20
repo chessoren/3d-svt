@@ -147,7 +147,9 @@ const REGLES = [
   },
   {
     nom: 'ponctuation double sans espace',
-    motif: /\p{L}[;:!?](?:\s|$)/u,
+    // Au moins deux lettres avant la ponctuation : « n! » ou « k! » sont des
+    // factorielles, pas des phrases mal ponctuées.
+    motif: /\p{L}{2,}[;:!?](?:\s|$)/u,
     conseil: 'en français, une espace insécable précède ; : ! et ?',
     bloquant: false,
     // Les formules mathématiques (factorielles) et les titres d'ouvrages

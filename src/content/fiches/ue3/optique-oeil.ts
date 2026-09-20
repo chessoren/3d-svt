@@ -104,7 +104,7 @@ export const ficheOptiqueOeil: Fiche = {
     },
     {
       id: 'oeil-reduit',
-      titre: "Le modèle de l'œil réduit",
+      titre: "Le modèle de l’œil réduit",
       blocs: [
         {
           type: 'definition',
@@ -159,7 +159,7 @@ export const ficheOptiqueOeil: Fiche = {
         },
         {
           type: 'formule',
-          expression: 'Amplitude d\'accommodation = V(PP) - V(PR)',
+          expression: 'Amplitude d’accommodation = V(PP) - V(PR)',
           legende:
             "L’amplitude d’accommodation, exprimée en dioptries, est la différence entre la vergence nécessaire pour voir net au punctum proximum et celle nécessaire pour voir net au punctum remotum.",
           unites: 'amplitude en dioptries (D)',

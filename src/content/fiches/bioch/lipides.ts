@@ -248,7 +248,7 @@ export const ficheLipides: Fiche = {
   erreursFrequentes: [
     'Confondre la nomenclature oméga (numérotée depuis l’extrémité méthyl) et la nomenclature delta (numérotée depuis la fonction acide).',
     'Considérer le cholestérol comme un triglycéride ou comme un phospholipide : il appartient à la famille distincte des stérols.',
-    'Oublier que le saccharose (glucide) et non un lipide : rester attentif à ne pas mélanger les grandes familles biochimiques dans une révision groupée.',
+    'Oublier que le saccharose est un glucide, et non un lipide : rester attentif à ne pas mélanger les grandes familles biochimiques dans une révision groupée.',
     'Attribuer aux HDL et aux LDL une différence de nature chimique du cholestérol transporté, alors que seule la particule transporteuse diffère.',
     'Croire que tous les acides gras insaturés sont essentiels : seuls ceux dont la première double liaison est au-delà du carbone 9 (oméga-6 et oméga-3) le sont.',
   ],
